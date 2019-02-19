@@ -52,5 +52,7 @@ Please include the following with each issue:
 
 * Images, animations, or a link to a video showing the issue occurring
 
-Don't feel bad if the developers can't reproduce the issue right away. They will simply ask for more information!
+
+---
+Don't feel bad if the developers can't reproduce the issue right away. They will simply ask for more information!  
 Thank you for taking the time to contribute.

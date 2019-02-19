@@ -5,6 +5,7 @@
 Aya has necessary and sufficient functionality to reveal what files and folders waste your space and get rid of them and their duplicates. Simple yet powerful, Aya satisfies not only home users, but also professionals.
 
 Visit [getaya.co](https://getaya.co) to learn more.
+
 Follow [@7room](https://twitter.com/7room) on Twitter for important announcements.
 
 ![Aya screenshot](https://user-images.githubusercontent.com/2874236/53017360-d665a080-3460-11e9-9997-e4a7f28faed1.png)

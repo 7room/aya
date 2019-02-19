@@ -24,7 +24,7 @@ Aya will automatically update when a new release is available (this option can b
 <!-- Using Chocolatey? Run cinst Aya to install the latest version of Aya. -->
 
 ## Feedback
-* Request a new feature on [GitHub](https://github.com/7room/aya/blob/master/CONTRIBUTING.md)
+* [Request a new feature on GitHub](CONTRIBUTING.md)
 * Vote for popular feature requests
-* File a bug in [GitHub Issues](https://github.com/7room/aya/issues)
+* File a bug in [GitHub issues](https://github.com/7room/aya/issues)
 * [Tweet us](https://twitter.com/7room) with any other feedback

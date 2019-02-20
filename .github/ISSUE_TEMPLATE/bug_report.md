@@ -27,8 +27,11 @@ assignees: ''
 **Screenshots and GIFs**
 [Screenshots to help explain your problem]
 
-**Desktop (please complete the following information):**
- - Aya version [e.g. 0.8.9]
+**Log**
+[Log file contents to help explain your problem]
+
+**Versions**
+ - Aya version: [e.g. 0.8.9]
  - OS: [e.g. Windows 10 1903]
 
 **Additional context**

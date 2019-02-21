@@ -9,6 +9,10 @@ assignees: ''
 
 <!-- Please search existing issues to avoid creating duplicates. -->
 
+**Versions**
+ - Aya version: [e.g. 0.8.9]
+ - OS: [e.g. Windows 10 1903]
+
 **Description**
 [A clear and concise description of what the bug is]
 
@@ -27,12 +31,10 @@ assignees: ''
 **Screenshots and GIFs**
 [Screenshots to help explain your problem]
 
-**Log**
-[Log file contents to help explain your problem]
-
-**Versions**
- - Aya version: [e.g. 0.8.9]
- - OS: [e.g. Windows 10 1903]
-
 **Additional context**
 [Any other context about the problem here]
+
+**Logs**
+[Log file contents (you can simply drag your file here to insert it to this issue)] 
+[The log files are organized by date, so see if anything was generated for today's date]
+[Location: `%PROGRAMDATA%\7room\Aya\Logs`]

@@ -13,8 +13,8 @@ Follow [@7room](https://twitter.com/7room) on Twitter for important announcement
 Aya is currently available for **Windows** only.
 
 #### Prerequisites
-* Windows 7 (and later)
-* [.NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework-runtime) (and later)
+* Windows 7 (or later)
+* [.NET Framework 4.6.2](https://dotnet.microsoft.com/download/dotnet-framework-runtime) (or later)
 
 Download the latest [Aya installer](https://github.com/7room/aya/releases/latest) called `AyaSetup-X.X.X.exe` where `X.X.X` is the current version.
 Installer supports both 32 and 64-bit operationg systems.

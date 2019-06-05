@@ -1,3 +1,21 @@
+## Version 0.9.0 `(2019-06-05)`
+#### Enhancements
+- Notification system
+- Extended Recycle Bin support
+- Handle long running deletion
+- Parallel device scanning
+- Percentage selection option
+- Control running executables
+- Save previous scan locations
+- Localization option in Feedback
+- Redesign Settings & Extra Items
+- Switch to .NET 4.7.2
+- UI improvements
+#### Bug fixes
+- Essential bug fixes
+
+<br>
+
 ## Version 0.8.6 `(2019-02-08)`
 #### Enhancements
 - Add ability to show advanced view by default

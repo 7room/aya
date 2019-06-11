@@ -1,3 +1,13 @@
+## Version 0.9.1 `(2019-06-11)`
+#### Enhancements
+- Ability to install .NET Framework if it doesn't exist
+- Show full application changelog
+- Various other improvements
+#### Bug fixes
+- Fix error when using proxy server
+
+<br>
+
 ## Version 0.9.0 `(2019-06-05)`
 #### Enhancements
 - Notification system

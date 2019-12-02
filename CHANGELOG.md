@@ -1,3 +1,14 @@
+## Version 0.9.2 `(2019-12-02)`
+#### Enhancements
+- Russian translation
+- Asynchronous filtering
+- Pane opening animation
+- Brand new application service client
+#### Bug fixes
+- Various other improvements and fixes
+
+<br>
+
 ## Version 0.9.1 `(2019-06-11)`
 #### Enhancements
 - Ability to install .NET Framework if it doesn't exist

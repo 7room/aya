@@ -37,4 +37,4 @@ assignees: ''
 **Logs**
 [Log file contents (you can simply drag your file here to insert it to this issue)] 
 [The log files are organized by date, so see if anything was generated for today's date]
-[Location: `%PROGRAMDATA%\7room\Aya\Logs`]
+[Location: `%APPDATA%\7room\Aya\Logs`]

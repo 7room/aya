@@ -1,3 +1,28 @@
+## Version 0.10.0 `(2020-02-20)`
+#### Enhancements
+- Add "Enable detailed logging" option
+- Switch to Serilog logger
+- Change installer name to Aya.Setup.x.x.x.exe
+- Extend startup logging
+- Introduce search syntax support (currently in Exclusions)
+- Improve GridSplitter UX (make it wider)
+- Improve progress bars
+- Add "Use Fast Scan Engine" option
+- Improve Exclusions tool
+- Fast scanning engine for NTFS disks
+- Improve english translation (paraphrasing)
+- Improve ScrollBar UX
+- Save grid settings
+- Separate scan sources between standard and advanced modes
+- Change log file location to %AppData%
+#### Bug fixes
+- Fix connection to application service (Windows 7)
+- Fix validations in Settings
+- Fix integration with Resxul
+- Bug fixes and other minor improvements
+
+<br>
+
 ## Version 0.9.2 `(2019-12-02)`
 #### Enhancements
 - Russian translation

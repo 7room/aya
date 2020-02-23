@@ -41,9 +41,14 @@ Some `<data>` tags also contain the `<comment>` tag. Usually, the comment provid
 
 Tags `<data>` with attribute `name` containing markers `p1...pN` are part of one line or one sentence. Usually there is a comment in the tag with the `p1` marker that shows an example of a resulting string consisting of several parts. Make sure that the concatenation is correct.
 
-## Creating a translation
+## Creating a new translation
 
-To create a translation, you need a reference file in the neutral language (English), from which the structure of the new file will be taken. The reference file must be cloned from [Aya repo](https://github.com/7room/aya).
+To create a translation, you need a reference file in the neutral language (English), from which the structure of the new file will be taken. The reference file must be copied from [Localizations](https://github.com/7room/aya/tree/master/localizations) folder.
+
+To avoid different people working on the same language at the same time, first check whether your language is not already taken by someone else. So, if it's not listed under [Open Issues](https://github.com/7room/aya/issues):
+
+Open a [New Issue](https://github.com/7room/aya/issues/new) to let other people know you are working on a new translation.
+Put language name and ID in the title, e.g. `Deutsch (de_DE)`.
 
 The translation process is to assign a new value to the `<value>` tag within the `<data>` tag. You should not change the value of the attribute `name`.
 
@@ -53,9 +58,9 @@ The simplest translation algorithm is to create a copy of the reference `.resx` 
 
 Once the translation is complete, you will need to make a pull request with your translation.
 
-## Editing an existing translation
+## Improving an existing translation
 
-Similarly, you can use the above technique to modify the existing `.resx` files, including the reference one.
+You can use the above technique to modify the existing `.resx` files, including the reference one.
 
 If you noticed a typo in the text or know how to best paraphrase a sentence, feel free to edit the English reference file and send us a pull request.
 

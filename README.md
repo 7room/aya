@@ -5,7 +5,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/7room/aya?include_prereleases)
 ![GitHub Pre-Releases (by Asset)](https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.0.exe?label=downloads)
 
-Aya is a well-designed tool that helps you take control over your large files and get rid of the useless ones.  
+### A well-designed tool that helps you<br/>take control over your large files and get rid of the useless ones.  
 
 Aya has the necessary and sufficient functionality to reveal which files and folders waste your space and get rid of them and their duplicates. Simple yet powerful, Aya satisfies not only home users, but also professionals.
 

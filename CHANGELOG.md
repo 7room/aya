@@ -1,18 +1,30 @@
-## Version 0.10.0 `(2020-02-20)`
+## Version 0.10.1 `(2020-02-29)`
+#### Enhancements
+- Add link to localization guidelines on GitHub
+- Improve translations
+- Add "OpenContentMaximized" setting & rename "Advanced view" to "Advanced mode"
+- Sort "changelog.json"
+- Fix scanning badge activation
+#### Bug fixes
+- Bug fixes and other minor improvements
+
+<br>
+
+## Version 0.10.0 `(2020-02-19)`
 #### Enhancements
 - Add "Enable detailed logging" option
-- Switch to Serilog logger
-- Change installer name to Aya.Setup.x.x.x.exe
 - Extend startup logging
 - Introduce search syntax support (currently in Exclusions)
+- Add "Use Fast Scan Engine" option
+- Fast scanning engine for NTFS disks
+- Save grid settings
+- Switch to Serilog logger
+- Change installer name to Aya.Setup.x.x.x.exe
 - Improve GridSplitter UX (make it wider)
 - Improve progress bars
-- Add "Use Fast Scan Engine" option
 - Improve Exclusions tool
-- Fast scanning engine for NTFS disks
 - Improve english translation (paraphrasing)
 - Improve ScrollBar UX
-- Save grid settings
 - Separate scan sources between standard and advanced modes
 - Change log file location to %AppData%
 #### Bug fixes
@@ -53,7 +65,7 @@
 - Percentage selection option
 - Control running executables
 - Save previous scan locations
-- Localization option in Feedback
+- Translation option in Feedback
 - Redesign Settings & Extra Items
 - Switch to .NET 4.7.2
 - UI improvements
@@ -64,12 +76,12 @@
 
 ## Version 0.8.6 `(2019-02-08)`
 #### Enhancements
-- Add ability to show advanced view by default
+- Add ability to use advanced mode by default
 - Show 'Manual update' button on update error
+- Restrict functionality in free version
 - Protect update hash
 - Use PasswordBox for proxy password
 - Improve licensing engine
-- Restrict functionality in free version
 - Improve UX in some scenarios
 #### Bug fixes
 - Fix several issues in UI library
@@ -116,9 +128,9 @@
 
 ## Version 0.8.0 `(2018-12-10)`
 #### Enhancements
+- Handle reparse point
 - Introduce Material Design UI
 - New filters concept
-- Handle reparse point
 - Remove Infralution library usage
 - Handle certificate missing on verifying installer
 #### Bug fixes

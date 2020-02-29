@@ -3,7 +3,7 @@
 <br/>
 ![Platform: Windows](https://img.shields.io/badge/platform-windows-brightgreen.svg)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/7room/aya?include_prereleases)
-![GitHub Pre-Releases (by Asset)](https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.0.exe?label=downloads)
+![GitHub Pre-Releases (by Asset)](https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.1.exe?label=downloads)
 
 ### A well-designed tool that helps you<br/>take control over your large files and get rid of the useless ones.  
 

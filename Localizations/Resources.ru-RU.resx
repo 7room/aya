@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Main_Scan" xml:space="preserve">
+    <value>Сканировать...</value>
+  </data>
+  <data name="Main_SelectFolderToScan" xml:space="preserve">
+    <value>Выберите папку для сканирования</value>
+  </data>
+  <data name="Update_Status_UpToDate" xml:space="preserve">
+    <value>Установлена последняя версия</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Обновление</value>
+  </data>
+  <data name="Update_CheckForUpdates" xml:space="preserve">
+    <value>Проверить наличие обновлений</value>
+  </data>
+  <data name="Main_Preparing" xml:space="preserve">
+    <value>Подготовка...</value>
+  </data>
+  <data name="Settings_Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="Settings_IgnoreHiddenFiles" xml:space="preserve">
+    <value>Игнорировать скрытые файлы</value>
+  </data>
+  <data name="Settings_IgnoreProtectedFiles" xml:space="preserve">
+    <value>Игнорировать защищенные системные файлы</value>
+  </data>
+  <data name="Tab_Duplicates" xml:space="preserve">
+    <value>Дубликаты</value>
+  </data>
+  <data name="Settings_Duplicates_IgnoreFileSizeUnder" xml:space="preserve">
+    <value>Игнорировать файлы меньше</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="Main_NewScan" xml:space="preserve">
+    <value>В начало...</value>
+  </data>
+  <data name="Main_SelectDisks_Title" xml:space="preserve">
+    <value>Выберите диски для сканирования</value>
+  </data>
+  <data name="Main_SearchingDuplicates" xml:space="preserve">
+    <value>Поиск дубликатов...</value>
+  </data>
+  <data name="Duplicates_Search" xml:space="preserve">
+    <value>Искать дубликаты</value>
+  </data>
+  <data name="Main_NoFilesFound" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="Main_NoFilesFound_Desc" xml:space="preserve">
+    <value>В выбранном расположении нет файлов.</value>
+  </data>
+  <data name="Main_SelectDisks_Desc" xml:space="preserve">
+    <value>Aya сканирует устройства хранения и показывает, какие файлы и папки занимают наибольшее пространство.</value>
+  </data>
+  <data name="ErrorInfo_SendReport" xml:space="preserve">
+    <value>Отправить отчет...</value>
+  </data>
+  <data name="ErrorInfo_Title" xml:space="preserve">
+    <value>Что-то пошло не так</value>
+  </data>
+  <data name="Feedback_Sending" xml:space="preserve">
+    <value>Отправка...</value>
+  </data>
+  <data name="AdvancedDetails" xml:space="preserve">
+    <value>Подробные сведения</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Item_Columns_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Item_Columns_Location" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="Item_Columns_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Item_Columns_Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Tab_Contents" xml:space="preserve">
+    <value>Содержимое</value>
+  </data>
+  <data name="Tab_TopFiles" xml:space="preserve">
+    <value>Топ файлов</value>
+  </data>
+  <data name="TopType_Top5" xml:space="preserve">
+    <value>Toп 5</value>
+  </data>
+  <data name="TopType_Top10" xml:space="preserve">
+    <value>Toп 10</value>
+  </data>
+  <data name="TopType_Top50" xml:space="preserve">
+    <value>Toп 50</value>
+  </data>
+  <data name="TopType_Top100" xml:space="preserve">
+    <value>Toп 100</value>
+  </data>
+  <data name="TopType_Top500" xml:space="preserve">
+    <value>Toп 500</value>
+  </data>
+  <data name="TopType_All" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="SortingType_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="SortingType_Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="SortingType_Count" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="Duplicates_Result_NotFound" xml:space="preserve">
+    <value>Дубликатов не найдено.</value>
+  </data>
+  <data name="Duplicates_Search_Title" xml:space="preserve">
+    <value>Поиск дубликатов</value>
+  </data>
+  <data name="Item_Columns_Used" xml:space="preserve">
+    <value>Использование</value>
+  </data>
+  <data name="Item_Properties" xml:space="preserve">
+    <value>Свойства...</value>
+  </data>
+  <data name="Item_Columns_Percent" xml:space="preserve">
+    <value>Процент</value>
+  </data>
+  <data name="Item_CopyAsPath" xml:space="preserve">
+    <value>Копировать путь</value>
+  </data>
+  <data name="Item_CopyAsName" xml:space="preserve">
+    <value>Копировать имя</value>
+  </data>
+  <data name="Item_Delete" xml:space="preserve">
+    <value>Удалить...</value>
+  </data>
+  <data name="Item_Open" xml:space="preserve">
+    <value>Открыть...</value>
+  </data>
+  <data name="Item_OpenLocation" xml:space="preserve">
+    <value>Открыть расположение</value>
+  </data>
+  <data name="Fs_Undefined" xml:space="preserve">
+    <value>Не определено</value>
+  </data>
+  <data name="Main_UpOneLevel" xml:space="preserve">
+    <value>Вверх на один уровень</value>
+  </data>
+  <data name="About_PrivacyPolicy" xml:space="preserve">
+    <value>Политика конфиденциальности</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Pavel" xml:space="preserve">
+    <value>Павел Михайлов</value>
+  </data>
+  <data name="Fs_FileType_Folder" xml:space="preserve">
+    <value>Папка с файлами</value>
+  </data>
+  <data name="About_Eula" xml:space="preserve">
+    <value>Лицензионное соглашение</value>
+  </data>
+  <data name="Fs_FileNotFound" xml:space="preserve">
+    <value>&lt;файл был переименован или удален&gt;</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="About_AllRightsReserved" xml:space="preserve">
+    <value>Все права защищены.</value>
+  </data>
+  <data name="Update_Status_CheckingForUpdates" xml:space="preserve">
+    <value>Проверка наличия обновлений...</value>
+  </data>
+  <data name="About_Donate_p1_HelpUsImprove" xml:space="preserve">
+    <value>Помогите улучшить Aya, </value>
+  </data>
+  <data name="About_CopyMachineId" xml:space="preserve">
+    <value>Скопировать Machine ID</value>
+  </data>
+  <data name="About_Donate_p2_ViaPayPal" xml:space="preserve">
+    <value>пожертвуйте через PayPal.</value>
+  </data>
+  <data name="Feedback_Attachment_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Settings_Proxy_Change" xml:space="preserve">
+    <value>Изменить настройки прокси...</value>
+  </data>
+  <data name="Settings_Duplicates_MatchByContent" xml:space="preserve">
+    <value>Сравнивать по содержимому (медленнее, но точнее)</value>
+  </data>
+  <data name="Settings_Duplicates_MatchByName" xml:space="preserve">
+    <value>Сравнивать по имени</value>
+  </data>
+  <data name="Settings_Duplicates_MatchByModifiedDate" xml:space="preserve">
+    <value>Сравнивать по дате модификации</value>
+  </data>
+  <data name="Settings_Duplicates_MatchBySize" xml:space="preserve">
+    <value>Сравнивать по размеру</value>
+  </data>
+  <data name="Settings_IgnoreZeroByteFiles" xml:space="preserve">
+    <value>Игнорировать файлы с нулевым размером</value>
+  </data>
+  <data name="Proxy_Title" xml:space="preserve">
+    <value>Настройки прокси</value>
+  </data>
+  <data name="Units_Mb" xml:space="preserve">
+    <value>МБ</value>
+  </data>
+  <data name="Settings_Duplicates_IgnoreFileSizeOver" xml:space="preserve">
+    <value>Игнорировать файлы больше</value>
+  </data>
+  <data name="EmptyState_NoItems" xml:space="preserve">
+    <value>Нет элементов для отображения в этом виде.</value>
+  </data>
+  <data name="Proxy_User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="Proxy_Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Proxy_NoProxy" xml:space="preserve">
+    <value>Отключить прокси</value>
+  </data>
+  <data name="Proxy_Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="Licensing_HowToGetProductKey" xml:space="preserve">
+    <value>Как я могу получить ключ продукта?</value>
+  </data>
+  <data name="Licensing" xml:space="preserve">
+    <value>Лицензирование</value>
+  </data>
+  <data name="Licensing_License" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+  <data name="Licensing_ProductKeyLooksLike" xml:space="preserve">
+    <value>Ключ продукта имеет следующий формат:</value>
+  </data>
+  <data name="Licensing_Activate" xml:space="preserve">
+    <value>Активировать</value>
+  </data>
+  <data name="Licensing_KeyDoesntWork" xml:space="preserve">
+    <value>Этот ключ не работает</value>
+  </data>
+  <data name="Licensing_LicenseStatus" xml:space="preserve">
+    <value>Статус:</value>
+  </data>
+  <data name="Licensing_Error_Activating" xml:space="preserve">
+    <value>В процессе активации произошла ошибка</value>
+  </data>
+  <data name="Licensing_EnterYourProductKey" xml:space="preserve">
+    <value>Пожалуйста, введите ключ продукта для смены версии.</value>
+  </data>
+  <data name="Licensing_ProductKey" xml:space="preserve">
+    <value>Ключ продукта:</value>
+  </data>
+  <data name="Licensing_ActivationDate" xml:space="preserve">
+    <value>Дата активации:</value>
+  </data>
+  <data name="Developer" xml:space="preserve">
+    <value>Разработчик</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Поддержка</value>
+  </data>
+  <data name="Language_Restart_Title" xml:space="preserve">
+    <value>Перезапустить приложение?</value>
+  </data>
+  <data name="Language_Restart_Restart" xml:space="preserve">
+    <value>Перезапустить сейчас</value>
+  </data>
+  <data name="Language_Restart_Cancel" xml:space="preserve">
+    <value>Не перезапускать</value>
+  </data>
+  <data name="Duplicates_Result_Title" xml:space="preserve">
+    <value>Результат поиска</value>
+  </data>
+  <data name="Duplicates_Result_Searching" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="Duplicates_Result_NotRun" xml:space="preserve">
+    <value>Поиск не проводился.</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>Приложение для поиска и управления файлами и папками, занимающими наибольшее дисковое пространство.</value>
+  </data>
+  <data name="Donate_Instructions_Desc" xml:space="preserve">
+    <value>Вы можете пожертвовать средства через наш аккаунт PayPal. Сумма пожертвования может быть любой, минимальных значений нет.
+
+Нажимая на одну из кнопок ниже, вы перейдете на защищенный сайт PayPal. Вам не нужно иметь аккаунт PayPal для совершения платежа.
+
+После пожертвования вы получите ключ продукта, который отключит всплывающие уведомления о пожертвованиях.</value>
+  </data>
+  <data name="Donate_Title" xml:space="preserve">
+    <value>Поддержите нас!</value>
+  </data>
+  <data name="Proxy_UseSystem" xml:space="preserve">
+    <value>Использовать системные настройки прокси</value>
+  </data>
+  <data name="Proxy_UseSpecified" xml:space="preserve">
+    <value>Использовать указанный прокси</value>
+  </data>
+  <data name="Proxy_UseServerAuth" xml:space="preserve">
+    <value>Использовать аутентификацию</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Пожертвовать</value>
+  </data>
+  <data name="Donate_Instructions_Title" xml:space="preserve">
+    <value>Платеж с помощью кредитной карты или PayPal</value>
+  </data>
+  <data name="Donate_Desc" xml:space="preserve">
+    <value>Разработка качественных приложений занимает много времени и ресурсов. Если вы нашли приложение полезным и хотели бы поддержать наши старания, пожалуйста, рассмотрите возможность пожертвования.</value>
+  </data>
+  <data name="About_Support_ContactEmail" xml:space="preserve">
+    <value>Связаться с нами по email</value>
+  </data>
+  <data name="About_Support_Github" xml:space="preserve">
+    <value>Ознакомиться с известными проблемами на GitHub</value>
+  </data>
+  <data name="Fs_FolderNotFound" xml:space="preserve">
+    <value>&lt;папка была переименована или удалена&gt;</value>
+  </data>
+  <data name="Settings_Shell" xml:space="preserve">
+    <value>Интеграция в систему</value>
+  </data>
+  <data name="Settings_Shell_OpenWith_p2_OpenWithApp" xml:space="preserve">
+    <value>Открыть в Aya</value>
+  </data>
+  <data name="Settings_Shell_OpenWith_p1_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Settings_Shell_OpenWith_p3_OptionToFolderMenu" xml:space="preserve">
+    <value>в меню папок</value>
+  </data>
+  <data name="Settings_Shell_OpenWith_p3_OptionToDriveMenu" xml:space="preserve">
+    <value>в меню дисков</value>
+  </data>
+  <data name="ErrorInfo_CopyToClipboard" xml:space="preserve">
+    <value>Скопировать в буфер обмена</value>
+  </data>
+  <data name="Main_SearchDuplicatesWithDefaults" xml:space="preserve">
+    <value>Искать дубликаты с настройками по умолчанию</value>
+  </data>
+  <data name="FileType_Images" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="FileType_Audio" xml:space="preserve">
+    <value>Аудио</value>
+  </data>
+  <data name="FileType_Video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="FileType_Applications" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="FileType_Compressed" xml:space="preserve">
+    <value>Архивы</value>
+  </data>
+  <data name="Settings_Filters_Extensions" xml:space="preserve">
+    <value>Расширения</value>
+  </data>
+  <data name="Settings_RestoreDefaults" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="Feedback_Attachment_Image" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="Feedback_Attachments" xml:space="preserve">
+    <value>Вложения</value>
+  </data>
+  <data name="Feedback_Attachment_Logs" xml:space="preserve">
+    <value>Лог-файлы</value>
+  </data>
+  <data name="Feedback_Send" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="Feedback_ProblemReport_Title" xml:space="preserve">
+    <value>Расскажите, что произошло</value>
+  </data>
+  <data name="Feedback_AddAttachment" xml:space="preserve">
+    <value>Добавить вложение</value>
+  </data>
+  <data name="Feedback_DeleteAttachment" xml:space="preserve">
+    <value>Удалить вложение</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ErrorInfo_Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="Attachment_ErrorDetails" xml:space="preserve">
+    <value>Информация об ошибке</value>
+  </data>
+  <data name="Feedback_SaveReportToDisk" xml:space="preserve">
+    <value>Сохранить отчет на диск для отправки через email...</value>
+  </data>
+  <data name="ZipArchives" xml:space="preserve">
+    <value>ZIP архивы</value>
+  </data>
+  <data name="Feedback_ReportSaved" xml:space="preserve">
+    <value>Отчет сохранен</value>
+  </data>
+  <data name="Feedback_ReportNotSaved" xml:space="preserve">
+    <value>Отчет не сохранен</value>
+  </data>
+  <data name="Feedback_NothingToSave" xml:space="preserve">
+    <value>Нет данных для сохранения.</value>
+  </data>
+  <data name="Feedback_ReportSavedTo" xml:space="preserve">
+    <value>Отчет успешно сохранен в:</value>
+  </data>
+  <data name="Update_CancelDownloadUpdate" xml:space="preserve">
+    <value>Отменить загрузку</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Licensing_ExpirationDate" xml:space="preserve">
+    <value>Дата окончания:</value>
+  </data>
+  <data name="Licensing_Remaining" xml:space="preserve">
+    <value>Осталось:</value>
+  </data>
+  <data name="Na" xml:space="preserve">
+    <value>Н/Д</value>
+  </data>
+  <data name="Licensing_Edition" xml:space="preserve">
+    <value>Версия:</value>
+  </data>
+  <data name="Licensing_LicenseType" xml:space="preserve">
+    <value>Тип лицензии:</value>
+  </data>
+  <data name="Licensing_DeleteLicense" xml:space="preserve">
+    <value>Удалить лицензию...</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Licensing_Details" xml:space="preserve">
+    <value>Подробности...</value>
+  </data>
+  <data name="Licensing_AppIsLicensedTo" xml:space="preserve">
+    <value>Зарегистрировано на {0}.</value>
+  </data>
+  <data name="Licensing_LicenseInformation" xml:space="preserve">
+    <value>Информация о лицензии</value>
+  </data>
+  <data name="Licensing_CustomerFullName" xml:space="preserve">
+    <value>Полное имя:</value>
+  </data>
+  <data name="Licensing_CustomerCompany" xml:space="preserve">
+    <value>Компания:</value>
+  </data>
+  <data name="Licensing_CustomerEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Licensing_CustomerInfo" xml:space="preserve">
+    <value>Информация о пользователе</value>
+  </data>
+  <data name="Licensing_Actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="Licensing_Expired" xml:space="preserve">
+    <value>Истекло:</value>
+  </data>
+  <data name="Licensing_RestoreProductKey" xml:space="preserve">
+    <value>Восстановить ключ продукта</value>
+  </data>
+  <data name="Main_Scanning" xml:space="preserve">
+    <value>Сканирование...</value>
+  </data>
+  <data name="Exclusions_Reason_Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Exclusions_Reason_Filtered" xml:space="preserve">
+    <value>Отфильтровано</value>
+  </data>
+  <data name="EmptyState_ManyItems" xml:space="preserve">
+    <value>Выбрано слишком много элементов для отображения в этом виде.</value>
+  </data>
+  <data name="ExtraItems_ProceedDelete" xml:space="preserve">
+    <value>Продолжить удаление</value>
+  </data>
+  <data name="Update_DownloadUpdate" xml:space="preserve">
+    <value>Загрузить обновление</value>
+  </data>
+  <data name="Update_RestartToInstallUpdate" xml:space="preserve">
+    <value>Перезапустить для установки</value>
+  </data>
+  <data name="Update_NeverChecked" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="Update_Status_DownloadPending" xml:space="preserve">
+    <value>Ожидание загрузки...</value>
+  </data>
+  <data name="Update_CurrentVersion" xml:space="preserve">
+    <value>Текущая версия {0}</value>
+  </data>
+  <data name="Fs_ItemNotFound" xml:space="preserve">
+    <value>Элемент был переименован или удален</value>
+  </data>
+  <data name="Settings_Filters_Groups" xml:space="preserve">
+    <value>Группы</value>
+  </data>
+  <data name="Language_Restart_Desc" xml:space="preserve">
+    <value>Настройки языка изменены. Чтобы сменить язык сейчас, перезапустите приложение.</value>
+  </data>
+  <data name="Feedback_Attachment_Filters" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="Main_StopScanning" xml:space="preserve">
+    <value>Остановить сканирование</value>
+  </data>
+  <data name="Licensing_ChangeProductKey" xml:space="preserve">
+    <value>Сменить ключ продукта</value>
+  </data>
+  <data name="Update_Changelog" xml:space="preserve">
+    <value>История версий</value>
+  </data>
+  <data name="FileType_Documents" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="Settings_Filters_CopyTag" xml:space="preserve">
+    <value>Копия</value>
+  </data>
+  <data name="Update_Status_FailedToCheck" xml:space="preserve">
+    <value>Не удается проверить наличие обновлений</value>
+  </data>
+  <data name="Main_SwitchToAdvanced" xml:space="preserve">
+    <value>Переключиться в расширенный режим</value>
+  </data>
+  <data name="MainViewMode_Advanced" xml:space="preserve">
+    <value>Расширенный режим</value>
+  </data>
+  <data name="Settings_UseAdvancedModeByDefault" xml:space="preserve">
+    <value>Показывать окно сканирования в расширенном режиме</value>
+  </data>
+  <data name="MainViewMode_Default" xml:space="preserve">
+    <value>Стандартный режим</value>
+  </data>
+  <data name="MainViewMode_Scanning" xml:space="preserve">
+    <value>Сканирование...</value>
+  </data>
+  <data name="Settings_AnimateWndCentering" xml:space="preserve">
+    <value>Анимировать центрирование окна</value>
+  </data>
+  <data name="ErrorInfo_Details" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="Duplicates_Groups" xml:space="preserve">
+    <value>Группы</value>
+  </data>
+  <data name="Duplicates_TotalSelectedFiles" xml:space="preserve">
+    <value>файлы:</value>
+  </data>
+  <data name="Duplicates_DeleteSelected" xml:space="preserve">
+    <value>Удалить выбранное...</value>
+  </data>
+  <data name="Duplicates_Groups_Error_Message" xml:space="preserve">
+    <value>Сообщение:</value>
+  </data>
+  <data name="Duplicates_AllGroups" xml:space="preserve">
+    <value>Все группы</value>
+  </data>
+  <data name="Duplicates_EarliestCopies" xml:space="preserve">
+    <value>Самый ранний</value>
+  </data>
+  <data name="Duplicates_LatestCopies" xml:space="preserve">
+    <value>Самый поздний</value>
+  </data>
+  <data name="Settings_Proxy" xml:space="preserve">
+    <value>Настройки прокси</value>
+  </data>
+  <data name="Licensing_LicenseExpiredYesterday" xml:space="preserve">
+    <value>Истекла вчера</value>
+  </data>
+  <data name="Licensing_LicenseExpiresToday" xml:space="preserve">
+    <value>Истекает сегодня</value>
+  </data>
+  <data name="DontAskMeAgain" xml:space="preserve">
+    <value>Больше не спрашивать</value>
+  </data>
+  <data name="ExeRunAction_Ask" xml:space="preserve">
+    <value>Спрашивать каждый раз</value>
+  </data>
+  <data name="Exe_AllowToRun_Yes" xml:space="preserve">
+    <value>Разрешить</value>
+  </data>
+  <data name="Exe_AllowToRun_Title" xml:space="preserve">
+    <value>Разрешить запуск?</value>
+  </data>
+  <data name="Exe_AllowToRun_Desc" xml:space="preserve">
+    <value>Файл "{0}" будет запущен с административными привилегиями и может навредить вашему компьютеру.</value>
+  </data>
+  <data name="Settings_Exe_AllowToRun" xml:space="preserve">
+    <value>Запуск исполняемых файлов</value>
+  </data>
+  <data name="Main_Advanced" xml:space="preserve">
+    <value>Больше функций</value>
+  </data>
+  <data name="Main_NewScan_Desc" xml:space="preserve">
+    <value>Результаты текущего сканирования будут потеряны.</value>
+  </data>
+  <data name="Main_NewScan_NewScan" xml:space="preserve">
+    <value>Новое сканирование</value>
+  </data>
+  <data name="Main_NewScan_Title" xml:space="preserve">
+    <value>Вернуться в начало?</value>
+  </data>
+  <data name="Main_ScanSources" xml:space="preserve">
+    <value>Источники сканирования</value>
+  </data>
+  <data name="Grid_ShowGridlines" xml:space="preserve">
+    <value>Показать сетку</value>
+  </data>
+  <data name="Main_SwitchToDefault" xml:space="preserve">
+    <value>Переключиться в стандартный режим</value>
+  </data>
+  <data name="Main_AddScanSource" xml:space="preserve">
+    <value>Добавить источник...</value>
+  </data>
+  <data name="Main_AddOneMoreScanSource" xml:space="preserve">
+    <value>Добавить еще источник...</value>
+  </data>
+  <data name="Licensing_DaysRemaining" xml:space="preserve">
+    <value>Осталось {0} дней</value>
+  </data>
+  <data name="Licensing_SubscriptionDaysRemaining" xml:space="preserve">
+    <value>Подписка: осталось {0} дней</value>
+  </data>
+  <data name="DiskControl_FileSystem" xml:space="preserve">
+    <value>Файловая система</value>
+  </data>
+  <data name="DiskControl_FreeOf" xml:space="preserve">
+    <value>свободно из</value>
+  </data>
+  <data name="DiskControl_UsedOf" xml:space="preserve">
+    <value>занято из</value>
+  </data>
+  <data name="Percent_OfScan_Desc" xml:space="preserve">
+    <value>Процент от отсканированного пространства</value>
+  </data>
+  <data name="ScanSource_Folder_Caption" xml:space="preserve">
+    <value>Путь:</value>
+  </data>
+  <data name="ScanSource_Snapshot_Caption" xml:space="preserve">
+    <value>Снимок:</value>
+  </data>
+  <data name="ScanSource_Unc_Caption" xml:space="preserve">
+    <value>UNC путь:</value>
+  </data>
+  <data name="Settings_Tab_Scan" xml:space="preserve">
+    <value>Сканирование</value>
+  </data>
+  <data name="Duplicates_BackToSearch" xml:space="preserve">
+    <value>Вернуться к поиску</value>
+  </data>
+  <data name="Duplicates_Result_PrevSearch_p1_Detected" xml:space="preserve">
+    <value>Предыдущий поиск обнаружил</value>
+  </data>
+  <data name="Duplicates_Result_PrevSearch_p2_Groups" xml:space="preserve">
+    <value>{0} групп дубликатов.</value>
+  </data>
+  <data name="Search_Query" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="Settings_Tab_General" xml:space="preserve">
+    <value>Основные</value>
+  </data>
+  <data name="Settings_Tab_ExcludeList" xml:space="preserve">
+    <value>Исключения</value>
+  </data>
+  <data name="Settings_Tab_Filters" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="Settings_Tab_Advanced" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Settings_Tab_Update" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="About_Tab_Support" xml:space="preserve">
+    <value>ПОДДЕРЖКА</value>
+  </data>
+  <data name="About_Tab_About" xml:space="preserve">
+    <value>О ПРОГРАММЕ</value>
+  </data>
+  <data name="About_Tab_Licensing" xml:space="preserve">
+    <value>ЛИЦЕНЗИЯ</value>
+  </data>
+  <data name="About_ThirdPartyNotices" xml:space="preserve">
+    <value>Соглашения сторонних компонентов</value>
+  </data>
+  <data name="About_Update_FullChangelog" xml:space="preserve">
+    <value>Полная история версий</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Update_UpdateManually" xml:space="preserve">
+    <value>Скачать вручную</value>
+  </data>
+  <data name="Update_ChangeChannel" xml:space="preserve">
+    <value>Переключиться</value>
+  </data>
+  <data name="Update_Channel_Beta" xml:space="preserve">
+    <value>Бета-версии</value>
+  </data>
+  <data name="Update_Channel_Stable" xml:space="preserve">
+    <value>Стабильный</value>
+  </data>
+  <data name="Update_Channel_Dev" xml:space="preserve">
+    <value>Для разработчиков</value>
+  </data>
+  <data name="Update_Channel_Dev_Desc" xml:space="preserve">
+    <value>Новейшие функции, находящиеся в разработке. Возможны сбои и неизвестные ошибки.</value>
+  </data>
+  <data name="Update_Channel_Stable_Desc" xml:space="preserve">
+    <value>Стабильные протестированные версии, которые не содержат экспериментальных функций.</value>
+  </data>
+  <data name="Update_Channel_Beta_Desc" xml:space="preserve">
+    <value>Новые функции и улучшения, которые скоро перейдут в стабильные версии. Возможны сбои и неизвестные ошибки.</value>
+  </data>
+  <data name="Settings_UpdateAutomatically" xml:space="preserve">
+    <value>Обновлять автоматически</value>
+  </data>
+  <data name="Settings_Update" xml:space="preserve">
+    <value>Обновление</value>
+  </data>
+  <data name="Update_LastChecked" xml:space="preserve">
+    <value>Последняя проверка:</value>
+  </data>
+  <data name="Update_Status_FailedToDownload" xml:space="preserve">
+    <value>Не удается загрузить обновление</value>
+  </data>
+  <data name="Update_Status_FailedToInstall" xml:space="preserve">
+    <value>Не удается установить обновление</value>
+  </data>
+  <data name="Update_Status_ReadyToInstall" xml:space="preserve">
+    <value>Aya {0} готова к установке</value>
+  </data>
+  <data name="Update_Status_DownloadingUpdate" xml:space="preserve">
+    <value>Загрузка Aya</value>
+  </data>
+  <data name="Update_Status_UpdateAvailable" xml:space="preserve">
+    <value>Доступна Aya {0}</value>
+  </data>
+  <data name="Update_Status_NotChecked" xml:space="preserve">
+    <value>Проверка наличия обновлений не была выполнена в этой сессии</value>
+  </data>
+  <data name="Update_SwitchToUnstableChannel_Title" xml:space="preserve">
+    <value>Вы переключаетесь на нестабильный канал</value>
+  </data>
+  <data name="Settings_UpdateAutomatically_Desc" xml:space="preserve">
+    <value>Автоматически обновлять Aya при выходе новой версии.</value>
+  </data>
+  <data name="Update_String_p1_See" xml:space="preserve">
+    <value>Посмотреть</value>
+  </data>
+  <data name="Update_String_p2_WhatsNew" xml:space="preserve">
+    <value>что нового</value>
+  </data>
+  <data name="Update_String_p3_Or" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="Update_String_p4_RestartNow" xml:space="preserve">
+    <value>перезапустить сейчас.</value>
+  </data>
+  <data name="Update_String_Desc" xml:space="preserve">
+    <value>Обновленная версия Aya загружена и будет установлена после перезапуска.</value>
+  </data>
+  <data name="Update_SwitchToUnstableChannel_Desc" xml:space="preserve">
+    <value>Вы переключаетесь на получение нестабильных версий, которые содержат функции, находящиеся в разработке. Будьте осторожны: возможны сбои и неизвестные ошибки.</value>
+  </data>
+  <data name="Settings_CurrentUpdateChannel" xml:space="preserve">
+    <value>Канал обновлений:</value>
+    <comment>Текущий канал:</comment>
+  </data>
+  <data name="About_CopyrightWarning" xml:space="preserve">
+    <value>Внимание: программа защищена законом об авторском праве и международными соглашениями. Несанкционированное копирование или распространение программы или любой ее части может привести к серьезным гражданским и уголовным наказаниям и будет преследоваться в максимально возможной степени по закону.</value>
+  </data>
+  <data name="About_Support_SendFeedback" xml:space="preserve">
+    <value>Отправить отзыв...</value>
+  </data>
+  <data name="About_Support_Desc" xml:space="preserve">
+    <value>Обнаружили проблему в Aya? Не хватает важной функции? Хотите рассказать нам о своих впечатлениях от работы с Aya? Мы хотим знать об этом! Вы можете написать нам, используя встроенный инструмент обратной связи или сообщить о проблеме, используя GitHub.</value>
+  </data>
+  <data name="Licensing_UpgradeLicense" xml:space="preserve">
+    <value>Купить лицензию</value>
+  </data>
+  <data name="Licensing_Delete_Title" xml:space="preserve">
+    <value>Удалить текущую лицензию?</value>
+  </data>
+  <data name="Licensing_ManageSubscription" xml:space="preserve">
+    <value>Управление подпиской</value>
+  </data>
+  <data name="Licensing_LicenseDevices" xml:space="preserve">
+    <value>Устройства:</value>
+  </data>
+  <data name="Licensing_Delete_Desc" xml:space="preserve">
+    <value>Для восстановления лицензии или получения новой, вы можете пройти на сайт Aya, либо связаться с нами.</value>
+  </data>
+  <data name="Licensing_ThankYou" xml:space="preserve">
+    <value>Спасибо, что выбрали Aya.</value>
+  </data>
+  <data name="Licensing_Finish" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="Licensing_ActivationCompleted" xml:space="preserve">
+    <value>Активация успешно завершена</value>
+  </data>
+  <data name="Licensing_AppDowngradedToFree" xml:space="preserve">
+    <value>Версия приложения переключена на бесплатную.</value>
+  </data>
+  <data name="Licensing_RecommendPurchase" xml:space="preserve">
+    <value>Рекомендуется приобрести лицензию.</value>
+  </data>
+  <data name="Licensing_DeleteLicenseAndReactivateApp" xml:space="preserve">
+    <value>Удалите текущий файл лицензии и активируйте приложение повторно.</value>
+  </data>
+  <data name="Licensing_LicenseFileNotFound" xml:space="preserve">
+    <value>Файл лицензии не найден</value>
+  </data>
+  <data name="Licensing_LicenseFileCorrupted" xml:space="preserve">
+    <value>Файл лицензии поврежден</value>
+  </data>
+  <data name="Licensing_LicenseFileUnknown" xml:space="preserve">
+    <value>Неизвестный статус лицензии</value>
+  </data>
+  <data name="Licensing_LicenseExpiredDaysAgo" xml:space="preserve">
+    <value>Истекла {0} дней назад</value>
+  </data>
+  <data name="Licensing_LifetimeLicense" xml:space="preserve">
+    <value>Бессрочная лицензия</value>
+  </data>
+  <data name="Licensing_ValidityLifetime" xml:space="preserve">
+    <value>Срок действия: бессрочно.</value>
+  </data>
+  <data name="Licensing_ValidBefore" xml:space="preserve">
+    <value>Лицензия действительна до {0}.</value>
+  </data>
+  <data name="Licensing_IsExpired" xml:space="preserve">
+    <value>Истек срок действия</value>
+  </data>
+  <data name="Licensing_IsActive" xml:space="preserve">
+    <value>Активна</value>
+  </data>
+  <data name="Licensing_ForComputers" xml:space="preserve">
+    <value>Для {0} компьютеров</value>
+  </data>
+  <data name="Licensing_Days" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="Licensing_Na" xml:space="preserve">
+    <value>Н/Д</value>
+  </data>
+  <data name="AppService_Usage_Licensing_Title" xml:space="preserve">
+    <value>Данные лицензии</value>
+  </data>
+  <data name="AppService_Usage_Licensing_Desc" xml:space="preserve">
+    <value>Данные, необходимые для системы лицензирования. Данные отправляются в момент активации ключа продукта. Нельзя отключить.</value>
+  </data>
+  <data name="Licensing_KeyExpired" xml:space="preserve">
+    <value>Ключ продукта истек</value>
+  </data>
+  <data name="Licensing_UnregisteredKey" xml:space="preserve">
+    <value>Ключ продукта незарегистрирован</value>
+  </data>
+  <data name="Licensing_InactiveKey" xml:space="preserve">
+    <value>Ключ продукта неактивен</value>
+  </data>
+  <data name="Licensing_InvalidKeyLength" xml:space="preserve">
+    <value>Некорректный ключ продукта</value>
+  </data>
+  <data name="Licensing_WrongProduct" xml:space="preserve">
+    <value>Ключ не предназначен для этого продукта</value>
+  </data>
+  <data name="Licensing_TrialLicense" xml:space="preserve">
+    <value>Пробная версия: осталось {0} дней</value>
+  </data>
+  <data name="Licensing_ActivateTrial" xml:space="preserve">
+    <value>Активировать пробную версию</value>
+  </data>
+  <data name="Licensing_TrialExpired" xml:space="preserve">
+    <value>Срок действия пробной версии истек</value>
+  </data>
+  <data name="Licensing_DonationLicense" xml:space="preserve">
+    <value>Donation-лицензия</value>
+  </data>
+  <data name="Licensing_AfterTrial_Desc" xml:space="preserve">
+    <value>По истечении пробного периода версия приложения будет понижена до бесплатной. Пробная версия может быть использована только один раз.</value>
+  </data>
+  <data name="Licensing_AfterSubscription_Desc" xml:space="preserve">
+    <value>После указанного периода подписка будет продлена автоматически. При отключенном продлении, версия приложения будет понижена до бесплатной.</value>
+  </data>
+  <data name="Licensing_Licensee" xml:space="preserve">
+    <value>AYA AWESOME USER</value>
+  </data>
+  <data name="Licensing_ThanksForDonation" xml:space="preserve">
+    <value>Спасибо за поддержку. Ваше пожертвование очень ценно и поможет ускорить развитие приложения и сделать Aya еще лучше.</value>
+  </data>
+  <data name="Licensing_ValidityNotLimited" xml:space="preserve">
+    <value>Срок действия вашей лицензии не ограничен. Если вам нужно восстановить ключ продукта, вы можете сделать это на нашем сайте.</value>
+  </data>
+  <data name="Licensing_ActivateTrial_p1_Try" xml:space="preserve">
+    <value>Попробуйте</value>
+  </data>
+  <data name="AppService_Connecting" xml:space="preserve">
+    <value>Подключение к сервису приложения...</value>
+  </data>
+  <data name="AppService_NotAvailable" xml:space="preserve">
+    <value>Сервис приложения недоступен</value>
+  </data>
+  <data name="AppService_Online" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="AppService_Usage_DataPacket" xml:space="preserve">
+    <value>Пакет данных</value>
+  </data>
+  <data name="AppService_Usage_Feedback_Title" xml:space="preserve">
+    <value>Данные обратной связи</value>
+  </data>
+  <data name="Settings_AppService_Manage" xml:space="preserve">
+    <value>Управлять использованием сервиса приложения...</value>
+  </data>
+  <data name="Settings_AppService" xml:space="preserve">
+    <value>Сервис приложения</value>
+  </data>
+  <data name="Settings_AppService_Desc" xml:space="preserve">
+    <value>Aya использует собственный сервис для таких функций, как лицензирование, отправка обратной связи и сбор статистики.</value>
+  </data>
+  <data name="AppService_Usage_Title" xml:space="preserve">
+    <value>Использование сервиса приложения</value>
+  </data>
+  <data name="AppService_Usage_Statistics_Title" xml:space="preserve">
+    <value>Статистика использования</value>
+  </data>
+  <data name="AppService_Usage_Statistics_Desc" xml:space="preserve">
+    <value>Aya отправляет определенные метрики о том, как вы используете приложение. Эти метрики нужны для приоритизации разработки и понимания того, насколько востребованы те или иные функции.</value>
+  </data>
+  <data name="AppService_Usage_Desc" xml:space="preserve">
+    <value>Aya использует собственный сервис для таких функций, как лицензирование, отправка обратной связи и сбор статистики. Здесь вы можете ознакомиться с отправляемыми данными.</value>
+  </data>
+  <data name="AppService_Usage_Feedback_Desc" xml:space="preserve">
+    <value>Данные содержат введенное пользователем сообщение, вложения, сделанные при помощи инструмента отправки обратной связи и блок статистики использования (если его отправка разрешена). Данные отправляются по действию пользователя. Нельзя отключить.</value>
+  </data>
+  <data name="AppService_Usage_Badge_Optional" xml:space="preserve">
+    <value>ОПЦИОНАЛЬНО</value>
+  </data>
+  <data name="AppService_Usage_Badge_Required" xml:space="preserve">
+    <value>НЕОБХОДИМО</value>
+  </data>
+  <data name="ReadyToDelete_ToRecycleBin" xml:space="preserve">
+    <value>Переместить в корзину</value>
+  </data>
+  <data name="Duplicates" xml:space="preserve">
+    <value>Дубликаты</value>
+  </data>
+  <data name="Duplicates_Cancelling" xml:space="preserve">
+    <value>Отмена...</value>
+  </data>
+  <data name="Duplicates_CancelOperation" xml:space="preserve">
+    <value>Отменить операцию</value>
+  </data>
+  <data name="Duplicates_DeleteGroup" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Duplicates_DeleteEntireGroup" xml:space="preserve">
+    <value>Удалить группу целиком...</value>
+  </data>
+  <data name="Upgrade_AlreadyHaveProductKey" xml:space="preserve">
+    <value>У меня есть ключ продукта</value>
+  </data>
+  <data name="Upgrade_StartTrial" xml:space="preserve">
+    <value>Пробная версия</value>
+  </data>
+  <data name="Upgrade_UpgradeTo" xml:space="preserve">
+    <value>Перейдите на</value>
+  </data>
+  <data name="Upgrade_UpgradeNow" xml:space="preserve">
+    <value>Купить сейчас</value>
+  </data>
+  <data name="Upgrade_DontAskAgainAndUseFreeVersion" xml:space="preserve">
+    <value>Больше не спрашивать и использовать Free версию</value>
+  </data>
+  <data name="Upgrade_Features_DeleteDuplicateFolders" xml:space="preserve">
+    <value>Удаление папок-дубликатов</value>
+  </data>
+  <data name="Licensing_ActivateTrial_p2_Now" xml:space="preserve">
+    <value>прямо сейчас!</value>
+  </data>
+  <data name="Upgrade_Features_Filters" xml:space="preserve">
+    <value>Богатые возможности фильтрации</value>
+  </data>
+  <data name="Upgrade_Features_MultipleScanSourcesSelection" xml:space="preserve">
+    <value>Множественные источники сканирования</value>
+  </data>
+  <data name="Upgrade_Features_CrossDiskScan" xml:space="preserve">
+    <value>Кросс-дисковое сканирование</value>
+  </data>
+  <data name="Upgrade_Features_FastScan" xml:space="preserve">
+    <value>Быстрое сканирование через MFT</value>
+  </data>
+  <data name="Upgrade_Desc" xml:space="preserve">
+    <value>Наше лучшее решение для обнаружения файлов и папок, которые расходуют наибольшее дисковое пространство. Получите полный набор функций и улучшений, включая следующие:</value>
+  </data>
+  <data name="Counter_Of" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="Counter_DisableFilters" xml:space="preserve">
+    <value>Убрать фильтры</value>
+  </data>
+  <data name="Counter_ClearSearchDisableFilters" xml:space="preserve">
+    <value>Очистить поиск и убрать фильтры</value>
+  </data>
+  <data name="Counter_ClearSearch" xml:space="preserve">
+    <value>Очистить поиск</value>
+  </data>
+  <data name="ReadyToDelete_DeleteFoldersIfPossible" xml:space="preserve">
+    <value>Удалить папки, если это возможно</value>
+  </data>
+  <data name="ReadyToDelete_DeletePermanently" xml:space="preserve">
+    <value>Безвозвратно удалить</value>
+  </data>
+  <data name="ReadyToDelete_Title" xml:space="preserve">
+    <value>Все готово для удаления</value>
+  </data>
+  <data name="ReadyToDelete_Desc" xml:space="preserve">
+    <value>Проверьте все элементы, подлежащие удалению. Если вы передумали удалять элемент, просто исключите его из очереди удаления.</value>
+    <comment>Проверьте все элементы, подлежащие удалению. Если вы передумали удалять элемент, просто исключите его из очереди удаления.</comment>
+  </data>
+  <data name="Item_ExcludeFromDeleteQueue" xml:space="preserve">
+    <value>Исключить из очереди удаления</value>
+  </data>
+  <data name="Duplicates_CancelMatching" xml:space="preserve">
+    <value>Отменить сравнение</value>
+  </data>
+  <data name="Duplicates_MatchByContent" xml:space="preserve">
+    <value>Сравнить по контенту</value>
+  </data>
+  <data name="Duplicates_MatchByThisContent" xml:space="preserve">
+    <value>Сравнить по этому контенту</value>
+  </data>
+  <data name="Item_SelectedSize" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Item_SelectedCount" xml:space="preserve">
+    <value>Выбрано</value>
+  </data>
+  <data name="Item_EmptyState_NoneSelected" xml:space="preserve">
+    <value>Выберите файл или папку для просмотра подробностей</value>
+  </data>
+  <data name="Duplicates_SelectedGroups" xml:space="preserve">
+    <value>Выбранные группы</value>
+  </data>
+  <data name="Duplicates_SelectedCount" xml:space="preserve">
+    <value>Число выбранных дубликатов</value>
+  </data>
+  <data name="Duplicates_DeselectAll" xml:space="preserve">
+    <value>Отменить выбор</value>
+  </data>
+  <data name="Duplicates_DeselectAllInEachGroup" xml:space="preserve">
+    <value>Отменить выбор всего в каждой группе</value>
+  </data>
+  <data name="Duplicates_Groups_EmptyState_NoSelected_Title" xml:space="preserve">
+    <value>Нет выбранных групп</value>
+  </data>
+  <data name="Duplicates_Groups_EmptyState_NoSelected_Desc" xml:space="preserve">
+    <value>Выберите группу дубликатов слева и ее содержимое появится здесь.</value>
+  </data>
+  <data name="Duplicates_SelectAll" xml:space="preserve">
+    <value>Выбрать все дубликаты</value>
+  </data>
+  <data name="Duplicates_SelectAllInEachGroup" xml:space="preserve">
+    <value>Выбрать все дубликаты в каждой группе</value>
+  </data>
+  <data name="Duplicates_SelectByCreateDate" xml:space="preserve">
+    <value>Выбрать по дате создания</value>
+  </data>
+  <data name="Duplicates_SelectByCreateDateInEachGroup" xml:space="preserve">
+    <value>Выбрать по дате создания в каждой группе</value>
+  </data>
+  <data name="Duplicates_SelectByLocationInEachGroup" xml:space="preserve">
+    <value>Выбрать по расположению в каждой группе</value>
+  </data>
+  <data name="Duplicates_SelectByModifyDate" xml:space="preserve">
+    <value>Выбрать по дате модификации</value>
+  </data>
+  <data name="Duplicates_SelectByModifyDateInEachGroup" xml:space="preserve">
+    <value>Выбрать по дате модификации в каждой группе</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoSelectedGroups_Title" xml:space="preserve">
+    <value>Нет выбранных групп</value>
+  </data>
+  <data name="Settings_KeepSelectedScanSources" xml:space="preserve">
+    <value>Сохранять источники сканирования в расширенном режиме</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoSelectedGroups_Desc" xml:space="preserve">
+    <value>Выберите группу слева и ее содержимое появится здесь.</value>
+  </data>
+  <data name="Settings_IgnoreReadOnlyFiles" xml:space="preserve">
+    <value>Игнорировать файлы только для чтения</value>
+  </data>
+  <data name="Feedback_OptionalEmail" xml:space="preserve">
+    <value>Адрес email (не обязательно)</value>
+  </data>
+  <data name="Feedback_ReportType_Problem" xml:space="preserve">
+    <value>Проблема</value>
+  </data>
+  <data name="Feedback_ReportType_Feedback" xml:space="preserve">
+    <value>Отзыв или предложение</value>
+  </data>
+  <data name="Feedback_ProblemReport_Desc" xml:space="preserve">
+    <value>Расскажите о проблеме и пошагово опишите процесс ее воспроизведения.</value>
+  </data>
+  <data name="Feedback_ReportType_Translation" xml:space="preserve">
+    <value>Улучшение перевода</value>
+  </data>
+  <data name="Feedback_ReportType" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Feedback_FeedbackReport_Title" xml:space="preserve">
+    <value>Каковы ваши впечатления?</value>
+  </data>
+  <data name="Feedback_FeedbackReport_Desc" xml:space="preserve">
+    <value>Расскажите, почему? Что бы вы хотели предложить?</value>
+  </data>
+  <data name="Feedback_AttachmentLimit_Desc" xml:space="preserve">
+    <value>Лимит размера вложений превышен
+на {0} КБ.</value>
+  </data>
+  <data name="Units_Kb" xml:space="preserve">
+    <value>КБ</value>
+  </data>
+  <data name="Feedback_AttachmentLimit_Title" xml:space="preserve">
+    <value>Лимит вложений</value>
+  </data>
+  <data name="Settings_Language_Report" xml:space="preserve">
+    <value>Предложить или улучшить перевод...</value>
+  </data>
+  <data name="Feedback_Translation_OtherLanguage" xml:space="preserve">
+    <value>Другой язык</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>Если вашего языка нет в списке и вы хотите сделать перевод, или вы заметили ошибки в текущем переводе, воспользуйтесь ссылкой ниже.</value>
+  </data>
+  <data name="Feedback_ComposeEmail" xml:space="preserve">
+    <value>Написать email...</value>
+  </data>
+  <data name="Feedback_TranslationReport_Title_p1_Want" xml:space="preserve">
+    <value>Я хочу</value>
+  </data>
+  <data name="Feedback_TranslationReport_Title_p2_New" xml:space="preserve">
+    <value>сделать новый перевод</value>
+  </data>
+  <data name="Feedback_TranslationReport_Title_p2_Existing" xml:space="preserve">
+    <value>улучшить существующий перевод</value>
+  </data>
+  <data name="Feedback_ReportProblem" xml:space="preserve">
+    <value>Сообщить о проблеме...</value>
+  </data>
+  <data name="Feedback_RequiredEmail" xml:space="preserve">
+    <value>Адрес email (обязательно)</value>
+  </data>
+  <data name="Feedback_Error_Send" xml:space="preserve">
+    <value>Не удается отправить отчет. Попробуйте еще раз или сохраните отчет для отправки его вручную.</value>
+  </data>
+  <data name="Feedback_SendFeedback" xml:space="preserve">
+    <value>Отправить отзыв...</value>
+  </data>
+  <data name="Feedback_TranslationReport_Existing_Desc" xml:space="preserve">
+    <value>Нашли опечатку или ошибку в тексте? Знаете, как лучше перефразировать предложение?
+
+Будет здорово, если вы прикрепите изображение для ясности!</value>
+  </data>
+  <data name="Feedback_TranslationReport_New_Desc" xml:space="preserve">
+    <value>Если вы хотите перевести приложение на выбранный язык, введите некоторую информацию о себе и укажите адрес email для связи.</value>
+  </data>
+  <data name="Feedback_Subject" xml:space="preserve">
+    <value>Краткое описание</value>
+  </data>
+  <data name="Feedback_Sent" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="Validation_IncorrectPort" xml:space="preserve">
+    <value>Некорректный номер порта</value>
+  </data>
+  <data name="Validation_PortHint" xml:space="preserve">
+    <value>Номер порта должен быть задан в пределах от 1 до 65535</value>
+  </data>
+  <data name="Validation_FieldRequired" xml:space="preserve">
+    <value>Обязательное поле</value>
+  </data>
+  <data name="Validation_FieldNotSet" xml:space="preserve">
+    <value>Поле не задано</value>
+  </data>
+  <data name="SortDirection_Ascending" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="SortDirection_Descending" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="Settings_SkipUac" xml:space="preserve">
+    <value>Пропускать предупреждение UAC</value>
+  </data>
+  <data name="Settings_SearchDuplicatesAfterScanningByDefault" xml:space="preserve">
+    <value>Искать дубликаты после сканирования по умолчанию</value>
+  </data>
+  <data name="Settings_Log" xml:space="preserve">
+    <value>Логирование</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="Filters_ExpandAll" xml:space="preserve">
+    <value>Развернуть все</value>
+  </data>
+  <data name="Filters_ResetAll" xml:space="preserve">
+    <value>Сбросить все фильтры</value>
+  </data>
+  <data name="Filters_Title" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="Filters_Edit" xml:space="preserve">
+    <value>Редактировать фильтры...</value>
+  </data>
+  <data name="Fs_Collecting" xml:space="preserve">
+    <value>Сбор...</value>
+  </data>
+  <data name="ExtraItems_Title" xml:space="preserve">
+    <value>Обнаружены другие файлы или папки</value>
+  </data>
+  <data name="ExtraItems_GroupAction" xml:space="preserve">
+    <value>Групповое действие:</value>
+  </data>
+  <data name="Duplicates_Obsolete_Title" xml:space="preserve">
+    <value>Устаревшая группа дубликатов</value>
+  </data>
+  <data name="Duplicates_ExactDuplicate" xml:space="preserve">
+    <value>Точный дубликат</value>
+  </data>
+  <data name="Duplicates_Groups_Error_Title" xml:space="preserve">
+    <value>Что-то пошло не так</value>
+  </data>
+  <data name="Fs_Projecting" xml:space="preserve">
+    <value>Проекция...</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="LongOperation_Title" xml:space="preserve">
+    <value>Пожалуйста, подождите</value>
+  </data>
+  <data name="LongOperation_Desc" xml:space="preserve">
+    <value>Операция длится дольше обычного...</value>
+  </data>
+  <data name="Item_Columns_Path" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="Item_Columns_DateModified" xml:space="preserve">
+    <value>Изменен</value>
+  </data>
+  <data name="Item_Columns_DateCreated" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="Fs_ReshapingCollectedData" xml:space="preserve">
+    <value>Реформирование собранных данных...</value>
+  </data>
+  <data name="Fs_FileType_Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="Exclusions_Reason_Error_Desc" xml:space="preserve">
+    <value>Ошибки чтения файлов и/или их метаданных</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="RecycleBin_LowCapacity_Move" xml:space="preserve">
+    <value>Переместить в корзину</value>
+  </data>
+  <data name="RecycleBin_Items" xml:space="preserve">
+    <value>{0} элементов</value>
+  </data>
+  <data name="RecycleBin_Error_Empty" xml:space="preserve">
+    <value>Не удается очистить корзину</value>
+  </data>
+  <data name="RecycleBin_Empty_Title" xml:space="preserve">
+    <value>Очистить корзину?</value>
+  </data>
+  <data name="RecycleBin_Empty_Empty" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ExeRunAction_Allow" xml:space="preserve">
+    <value>Разрешать</value>
+  </data>
+  <data name="ExeRunAction_Deny" xml:space="preserve">
+    <value>Не разрешать</value>
+  </data>
+  <data name="Settings_Exe_AllowToRun_Desc" xml:space="preserve">
+    <value>Исполняемые файлы, запущенные из Aya, будут иметь административные привилегии и могут навредить вашему компьютеру.</value>
+  </data>
+  <data name="Exe_Notify_AllowToRun_Title" xml:space="preserve">
+    <value>Запуск исполняемых файлов запрещен</value>
+  </data>
+  <data name="Exe_Notify_AllowToRun_Desc" xml:space="preserve">
+    <value>Запустите файл за пределами Aya, либо разрешите запуск исполняемых файлов в настройках.</value>
+  </data>
+  <data name="RecycleBin_CurrentUser" xml:space="preserve">
+    <value>Корзина текущего пользователя</value>
+  </data>
+  <data name="RecycleBin_PercentOfUsed" xml:space="preserve">
+    <value>Используется {0}% из {1}</value>
+  </data>
+  <data name="RecycleBin_Disabled_DeletePermanently_ProceedDelete" xml:space="preserve">
+    <value>Продолжить удаление</value>
+  </data>
+  <data name="Duplicates_PossibleDuplicate" xml:space="preserve">
+    <value>Возможный дубликат</value>
+  </data>
+  <data name="Duplicates_Sort_Size" xml:space="preserve">
+    <value>По размеру</value>
+  </data>
+  <data name="Duplicates_Sort_Name" xml:space="preserve">
+    <value>По имени</value>
+  </data>
+  <data name="Duplicates_Sort_Count" xml:space="preserve">
+    <value>По количеству</value>
+  </data>
+  <data name="Settings_Error_OpenLogLocation" xml:space="preserve">
+    <value>Не удается открыть расположение текущего лог-файла.</value>
+  </data>
+  <data name="Duplicates_ThisLocation" xml:space="preserve">
+    <value>Это расположение</value>
+  </data>
+  <data name="Duplicates_ThisLocationAndSubfolders" xml:space="preserve">
+    <value>Это расположение и подпапки</value>
+  </data>
+  <data name="Settings_Duplicates" xml:space="preserve">
+    <value>Дубликаты</value>
+  </data>
+  <data name="Settings_Error_GetLogFilePath" xml:space="preserve">
+    <value>Не удается получить путь к лог-файлу.</value>
+  </data>
+  <data name="Settings_Error_LoadSettings" xml:space="preserve">
+    <value>Не удается загрузить пользовательские настройки. Будут восстановлены настройки по умолчанию.</value>
+  </data>
+  <data name="Settings_Error_OpenLogFile" xml:space="preserve">
+    <value>Не удается открыть лог-файл.</value>
+  </data>
+  <data name="Settings_Error_SetUacWarning" xml:space="preserve">
+    <value>Не удается настроить предупреждение UAC</value>
+  </data>
+  <data name="Settings_ExcludeList_Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="Validation_FqPathRequired" xml:space="preserve">
+    <value>Требуется указать полный путь</value>
+  </data>
+  <data name="Validation_DirectoryNotFound" xml:space="preserve">
+    <value>Директория не найдена</value>
+  </data>
+  <data name="Upgrade_InEditionOnly_p1_Feature" xml:space="preserve">
+    <value>Эта функция доступна только в</value>
+  </data>
+  <data name="Upgrade_InEditionOnly_p2_Edition" xml:space="preserve">
+    <value>версии.</value>
+  </data>
+  <data name="Duplicates_DeleteGroup_Title" xml:space="preserve">
+    <value>Удалить выбранную группу целиком?</value>
+  </data>
+  <data name="Duplicates_DeleteGroup_Desc" xml:space="preserve">
+    <value>Вы собираетесь удалить всю группу дубликатов. Это означает, что все файлы, включая оригинал, в этой группе будут удалены.</value>
+  </data>
+  <data name="Duplicates_Groups_Error_Desc" xml:space="preserve">
+    <value>При обработке группы дубликатов возникла ошибка.</value>
+  </data>
+  <data name="Duplicates_RepeatSerach" xml:space="preserve">
+    <value>Повторить поиск</value>
+  </data>
+  <data name="Settings_Filters_CreateGroup" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="Settings_Filters_AddGroup" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Settings_Filters_NewGroupName" xml:space="preserve">
+    <value>Новая группа</value>
+  </data>
+  <data name="Settings_Filters_CreateGroupBasedOn" xml:space="preserve">
+    <value>Дублировать...</value>
+  </data>
+  <data name="Settings_Filters_AddNewGroup" xml:space="preserve">
+    <value>Добавить группу...</value>
+  </data>
+  <data name="Settings_Filters_RestoreDefaults" xml:space="preserve">
+    <value>Восстановить исходные значения для всех групп</value>
+  </data>
+  <data name="Filters_Error_LoadFilters" xml:space="preserve">
+    <value>Не удается загрузить фильтры. Будут восстановлены фильтры по умолчанию.</value>
+  </data>
+  <data name="RecycleBin_Disabled_DeletePermanently_Title" xml:space="preserve">
+    <value>Файлы будут удалены безвозвратно</value>
+  </data>
+  <data name="Settings_Filters_KeepCustomGroups" xml:space="preserve">
+    <value>Сохранить пользовательские группы</value>
+  </data>
+  <data name="Settings_Filters_RestoreFilters_Title" xml:space="preserve">
+    <value>Сбросить все группы фильтров?</value>
+  </data>
+  <data name="Settings_Filters_GroupName" xml:space="preserve">
+    <value>Имя группы</value>
+  </data>
+  <data name="Settings_Filters_EnterGroupName" xml:space="preserve">
+    <value>Введите имя группы</value>
+  </data>
+  <data name="Settings_Filters_GroupNameRequired" xml:space="preserve">
+    <value>Должно быть задано имя группы</value>
+  </data>
+  <data name="Settings_Filters_GroupAlreadyExists" xml:space="preserve">
+    <value>Группа с таким именем уже существует</value>
+  </data>
+  <data name="Settings_Filters_Groups_RestoreDefaults" xml:space="preserve">
+    <value>Сбросить по умолчанию</value>
+  </data>
+  <data name="Settings_ExcludeList_RestoreDefaults" xml:space="preserve">
+    <value>Восстановить исходные значения для списков</value>
+  </data>
+  <data name="Settings_ExcludeList_Folders" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="Settings_ExcludeList_Restore_Restore" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="Settings_ExcludeList_Restore_Title" xml:space="preserve">
+    <value>Сбросить списки исключений?</value>
+  </data>
+  <data name="Settings_ExcludeList_Restore_Desc" xml:space="preserve">
+    <value>Списки исключений будут возвращены к первоначальному состоянию.</value>
+  </data>
+  <data name="Settings_ExcludeList_Files_Masks" xml:space="preserve">
+    <value>Введите имя или шаблон, напр. index.dat, unins*.exe, .dll</value>
+  </data>
+  <data name="Settings_ExcludeList_Folders_Masks" xml:space="preserve">
+    <value>Введите путь или шаблон, напр. *\appdata\, *\local*\</value>
+  </data>
+  <data name="Settings_Filters_RestoreFilters_Restore" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="Settings_Filters_StartTypingExtension" xml:space="preserve">
+    <value>Начните ввод, чтобы найти фильтр или создать новый</value>
+  </data>
+  <data name="Filters_CheckAll" xml:space="preserve">
+    <value>Выбрать все</value>
+  </data>
+  <data name="Filters_UncheckAllButThis" xml:space="preserve">
+    <value>Отменить выбор всех, кроме этого</value>
+  </data>
+  <data name="Filters_UncheckAll" xml:space="preserve">
+    <value>Отменить выбор</value>
+  </data>
+  <data name="Filters_CollapseAll" xml:space="preserve">
+    <value>Свернуть все</value>
+  </data>
+  <data name="Filters_CheckAllGroups" xml:space="preserve">
+    <value>Выбрать все группы</value>
+  </data>
+  <data name="Filters_UncheckAllGroups" xml:space="preserve">
+    <value>Отменить выбор всех групп</value>
+  </data>
+  <data name="Filters_Desc" xml:space="preserve">
+    <value>Фильтрация контента по категориям</value>
+  </data>
+  <data name="Exclusions_Title" xml:space="preserve">
+    <value>Исключения</value>
+  </data>
+  <data name="Exclusions_Desc" xml:space="preserve">
+    <value>Файлы и папки, которые были исключены из результатов согласно настройкам, спискам исключений или из-за проблем, возникших при сканировании.</value>
+  </data>
+  <data name="Exclusions_Reason" xml:space="preserve">
+    <value>Причина</value>
+  </data>
+  <data name="Exclusions_Reason_Filtered_Desc" xml:space="preserve">
+    <value>Фильтрация согласно настройкам и спискам исключений</value>
+  </data>
+  <data name="Fs_InitDeviceLayers" xml:space="preserve">
+    <value>Инициализация уровней устройств...</value>
+  </data>
+  <data name="Fs_ReparsePointsNotSupported" xml:space="preserve">
+    <value>Точки повторной обработки (reparse points) в текущей версии не поддерживаются.</value>
+  </data>
+  <data name="Fs_FilteredByFileSize" xml:space="preserve">
+    <value>Отфильтровано по условиям размера файла: "{0}"</value>
+  </data>
+  <data name="Fs_FilteredByPath" xml:space="preserve">
+    <value>Отфильтровано по пути: "{0}"</value>
+  </data>
+  <data name="Fs_FilteredByFileAttributes" xml:space="preserve">
+    <value>Отфильтровано по условиям атрибутов файла: "{0}"</value>
+  </data>
+  <data name="Settings_Proxy_Desc" xml:space="preserve">
+    <value>Если вы подключаетесь к интернету через прокси-сервер, укажите параметры подключения прокси-сервера.</value>
+  </data>
+  <data name="Proxy_Desc" xml:space="preserve">
+    <value>Если вы подключаетесь к интернету через прокси-сервер, укажите параметры подключения прокси-сервера.</value>
+    <comment>Если вы подключаетесь к интернету через прокси-сервер, укажите параметры подключения прокси-сервера.</comment>
+  </data>
+  <data name="Exclusions_Exclusion" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Settings_RunScanAtStartWhenSavedScanSources" xml:space="preserve">
+    <value>Запускать сканирование сохраненных источников на старте</value>
+  </data>
+  <data name="Settings_CenterWndHorizOnOpenPane" xml:space="preserve">
+    <value>Центрировать окно по горизонтали при открытии панели</value>
+  </data>
+  <data name="Settings_OpenLogFile" xml:space="preserve">
+    <value>Открыть текущий лог-файл</value>
+  </data>
+  <data name="Settings_OpenLogFolder" xml:space="preserve">
+    <value>Открыть папку с лог-файлами</value>
+  </data>
+  <data name="Percent_OfDisk_Desc" xml:space="preserve">
+    <value>Процент от занятого дискового пространства</value>
+  </data>
+  <data name="Percent_OfComputer_Desc" xml:space="preserve">
+    <value>Процент от всего занятого пространства компьютера</value>
+  </data>
+  <data name="Percent_OfFolder_Desc" xml:space="preserve">
+    <value>Процент от пространства текущей папки</value>
+  </data>
+  <data name="Licensing_Error_SaveLicense" xml:space="preserve">
+    <value>Не удается сохранить файл лицензии на диск</value>
+  </data>
+  <data name="Licensing_Error_DeleteLicense" xml:space="preserve">
+    <value>Не удается удалить файл лицензии с диска.</value>
+  </data>
+  <data name="Settings_Error_SetContextMenuDrive" xml:space="preserve">
+    <value>Не удается настроить контекстное меню для дисков</value>
+  </data>
+  <data name="Settings_Error_SetContextMenuFolder" xml:space="preserve">
+    <value>Не удается настроить контекстное меню для папок</value>
+  </data>
+  <data name="Exclusions_EmptyState_NothingSelected" xml:space="preserve">
+    <value>Ничего не выбрано</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoExtensions_Title" xml:space="preserve">
+    <value>Нет элементов</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoGroups_Title" xml:space="preserve">
+    <value>Нет групп</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoExtensions_Desc" xml:space="preserve">
+    <value>Добавьте новый элемент, используя поле выше.</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_AddNewGroup" xml:space="preserve">
+    <value>Добавьте новую группу и она появится здесь.</value>
+  </data>
+  <data name="Exclusions_EmptyState_NothingSelected_Desc" xml:space="preserve">
+    <value>Выберите исключение слева чтобы посмотреть подробности.</value>
+  </data>
+  <data name="Exclusions_Details" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="ExtraItems_Details" xml:space="preserve">
+    <value>Подробности</value>
+  </data>
+  <data name="RecycleBin_LowCapacity_Title" xml:space="preserve">
+    <value>Корзина будет частично очищена</value>
+  </data>
+  <data name="RecycleBin_LowCapacity_Desc" xml:space="preserve">
+    <value>В корзине недостаточно места для перемещения выбранных файлов. Часть файлов, уже находящихся в корзине, будет удалена безвозвратно.</value>
+  </data>
+  <data name="Settings_RecycleBin_WarnLowCapacity" xml:space="preserve">
+    <value>Предупреждать о нехватке емкости корзины</value>
+  </data>
+  <data name="Settings_RecycleBin_WarnLowCapacity_Desc" xml:space="preserve">
+    <value>Если емкость корзины недостаточна, то при помещении в нее новых файлов, система может очистить корзину без предупреждения.</value>
+  </data>
+  <data name="RecycleBin_Empty_Desc" xml:space="preserve">
+    <value>Корзина может быть очищена не полностью. Будут удалены файлы, относящиеся к отсканированным дискам.</value>
+  </data>
+  <data name="RecycleBin_Disabled_DeletePermanently_Desc" xml:space="preserve">
+    <value>Выбранные файлы расположены на диске с отключенной корзиной.</value>
+  </data>
+  <data name="Duplicates_Obsolete_Desc" xml:space="preserve">
+    <value>Сравнение по содержимому показало, что файлы в этой группе не являются дубликатами. Эта группа отображена для информации. Вы можете проигнорировать или убрать ее из списка.</value>
+  </data>
+  <data name="Duplicates_Obsolete_DeleteOnlyThis" xml:space="preserve">
+    <value>Убрать группу из списка</value>
+  </data>
+  <data name="Duplicates_Obsolete_DeleteAll" xml:space="preserve">
+    <value>Убрать все устаревшие группы ({0})</value>
+  </data>
+  <data name="ExtraItems_OperationIsInProgress" xml:space="preserve">
+    <value>Над этим элементом выполняется операция</value>
+  </data>
+  <data name="ReadyToDelete_FilteredContentWarning" xml:space="preserve">
+    <value>Отфильтрованные элементы не будут удалены</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoGroups_Desc" xml:space="preserve">
+    <value>Создайте группу и ее содержимое появится здесь.</value>
+  </data>
+  <data name="Settings_Filters_RestoreFilters_Desc" xml:space="preserve">
+    <value>Стандартные группы будут возвращены к первоначальному состоянию.</value>
+  </data>
+  <data name="Settings_Filters_Desc" xml:space="preserve">
+    <value>Фильтры объединены в группы и используются в приложении для повышения удобства просмотра содержимого.</value>
+  </data>
+  <data name="ExtraItems_Desc" xml:space="preserve">
+    <value>В выбранном подмножестве присутствуют файлы или папки, которые, по определенным причинам, были исключены из результатов сканирования. Выберите действие.</value>
+  </data>
+  <data name="ExtraItemAction_Skip" xml:space="preserve">
+    <value>Пропустить</value>
+  </data>
+  <data name="ExtraItemAction_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ExtraItemAction_Different" xml:space="preserve">
+    <value>Разные действия</value>
+  </data>
+  <data name="GridViewDensity_Medium" xml:space="preserve">
+    <value>Средняя</value>
+  </data>
+  <data name="GridViewDensity_Low" xml:space="preserve">
+    <value>Низкая</value>
+  </data>
+  <data name="GridViewDensity_High" xml:space="preserve">
+    <value>Высокая</value>
+  </data>
+  <data name="SizePercentType_Scan" xml:space="preserve">
+    <value>От сканирования</value>
+  </data>
+  <data name="SizePercentType_Disk" xml:space="preserve">
+    <value>От диска</value>
+  </data>
+  <data name="SizePercentType_Computer" xml:space="preserve">
+    <value>От компьютера</value>
+  </data>
+  <data name="SizePercentType_Folder" xml:space="preserve">
+    <value>От папки</value>
+  </data>
+  <data name="RecycleBin" xml:space="preserve">
+    <value>Корзина</value>
+  </data>
+  <data name="RecycleBin_Open" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="RecycleBin_Empty" xml:space="preserve">
+    <value>Очистить...</value>
+  </data>
+  <data name="RecycleBin_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="GridViewDensity" xml:space="preserve">
+    <value>Плотность сетки</value>
+  </data>
+  <data name="Settings_ExcludeList_Desc" xml:space="preserve">
+    <value>Файлы и папки, которые будут исключены из сканирования. Можно указывать как абсолютные пути, так и шаблоны.</value>
+  </data>
+  <data name="Settings_Additional" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Licensing_ProductKeyCreationDate" xml:space="preserve">
+    <value>Дата выдачи ключа:</value>
+  </data>
+  <data name="ProductKeyType_Donation" xml:space="preserve">
+    <value>Пожертвование</value>
+  </data>
+  <data name="ProductKeyType_Trial" xml:space="preserve">
+    <value>Пробная</value>
+  </data>
+  <data name="ProductKeyType_Lifetime" xml:space="preserve">
+    <value>Бессрочная</value>
+  </data>
+  <data name="ProductKeyType_Annual" xml:space="preserve">
+    <value>Годовая</value>
+  </data>
+  <data name="Validation_NumberMustBePositive" xml:space="preserve">
+    <value>Число должно быть положительным</value>
+  </data>
+  <data name="Settings_ScanEngine" xml:space="preserve">
+    <value>Сканирующий движок</value>
+  </data>
+  <data name="Settings_FastScan_UseMft" xml:space="preserve">
+    <value>Включить быстрое сканирование</value>
+  </data>
+  <data name="Settings_FastScan_UseMft_Desc" xml:space="preserve">
+    <value>Для дисков с файловой системой NTFS используется считывание MFT напрямую.</value>
+  </data>
+  <data name="Duplicates_Sort_SortBy" xml:space="preserve">
+    <value>Сортировать:</value>
+  </data>
+  <data name="Exclusions_Reason_NotSupported" xml:space="preserve">
+    <value>Не поддерживается</value>
+  </data>
+  <data name="Exclusions_Reason_NotSupported_Desc" xml:space="preserve">
+    <value>Неподдерживаемые на данный момент файлы</value>
+  </data>
+  <data name="Exclusions_Reasons" xml:space="preserve">
+    <value>Причины</value>
+  </data>
+  <data name="Exclusions_Message" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="SkipCode_FilterByPath" xml:space="preserve">
+    <value>Отфильтровано по пути согласно спискам исключений.</value>
+  </data>
+  <data name="SkipCode_AccessDenied" xml:space="preserve">
+    <value>Доступ запрещен. Недостаточно прав для доступа к файлу или папке.</value>
+  </data>
+  <data name="SkipCode_ReparsePoint" xml:space="preserve">
+    <value>Точка повторной обработки (Reparse point). Временно не поддерживается.</value>
+  </data>
+  <data name="SkipCode_FilterBySize" xml:space="preserve">
+    <value>Отфильтровано по размеру согласно настройкам.</value>
+  </data>
+  <data name="SkipCode_FilterByAttributes" xml:space="preserve">
+    <value>Отфильтровано по атрибутам согласно настройкам.</value>
+  </data>
+  <data name="SkipCode_Exception" xml:space="preserve">
+    <value>Неизвестная ошибка чтения файла и/или его метаданных.</value>
+  </data>
+  <data name="SkipCode_UnableToReadSize" xml:space="preserve">
+    <value>Быстрое сканирование через MFT временно не поддерживает чтение размера для этого файла.</value>
+  </data>
+  <data name="Search_SyntaxCommands" xml:space="preserve">
+    <value>Команды</value>
+  </data>
+  <data name="Fs_ReadingMft" xml:space="preserve">
+    <value>Чтение MFT...</value>
+  </data>
+  <data name="Settings_EnableDetailedLogging" xml:space="preserve">
+    <value>Включить подробное логирование</value>
+  </data>
+  <data name="Settings_EnableDetailedLogging_Desc" xml:space="preserve">
+    <value>Собирать больше данных для поиска и устранения неисправностей.</value>
+  </data>
+  <data name="Fs_FilteringFileRecords" xml:space="preserve">
+    <value>Фильтрация файловых записей...</value>
+  </data>
+  <data name="Fs_NormalizingData" xml:space="preserve">
+    <value>Нормализация данных...</value>
+  </data>
+  <data name="Fs_Finalizing" xml:space="preserve">
+    <value>Завершение...</value>
+  </data>
+  <data name="Main_ScanEngine_Hint" xml:space="preserve">
+    <value>Сканирование может проводиться в двух режимах: обычное и быстрое сканирование через MFT. Быстрое сканирование доступно только в Aya Advanced для NTFS дисков.</value>
+  </data>
+  <data name="Settings_ShowContentMaximized" xml:space="preserve">
+    <value>Разворачивать окно на весь экран</value>
+  </data>
+  <data name="Feedback_Additional" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="Feedback_LocalizationGuide" xml:space="preserve">
+    <value>Открыть руководство по локализации</value>
+  </data>
+</root>

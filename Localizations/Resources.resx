@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Update_CheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="Update_Status_FailedToCheck" xml:space="preserve">
+    <value>Unable to check for updates</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Update_Status_UpToDate" xml:space="preserve">
+    <value>Aya is up to date</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Settings_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Main_Scan" xml:space="preserve">
+    <value>Scan...</value>
+  </data>
+  <data name="Main_SelectFolderToScan" xml:space="preserve">
+    <value>Select a folder to scan</value>
+  </data>
+  <data name="Settings_Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="Settings_IgnoreHiddenFiles" xml:space="preserve">
+    <value>Ignore hidden files</value>
+  </data>
+  <data name="Settings_IgnoreProtectedFiles" xml:space="preserve">
+    <value>Ignore protected system files</value>
+  </data>
+  <data name="Tab_Duplicates" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="Settings_Duplicates_IgnoreFileSizeUnder" xml:space="preserve">
+    <value>Ignore file size under</value>
+    <comment>e.g. Ignore file size under 1 MB</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Main_NewScan" xml:space="preserve">
+    <value>New scan...</value>
+  </data>
+  <data name="Main_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Main_SelectDisks_Title" xml:space="preserve">
+    <value>Select disks to scan</value>
+  </data>
+  <data name="Main_SelectDisks_Desc" xml:space="preserve">
+    <value>Aya scans your disks and displays which files and folders are taking up your disk space.</value>
+  </data>
+  <data name="Main_NoFilesFound_Desc" xml:space="preserve">
+    <value>There are no files in selected location.</value>
+  </data>
+  <data name="Main_NoFilesFound" xml:space="preserve">
+    <value>No files were found</value>
+  </data>
+  <data name="Main_Preparing" xml:space="preserve">
+    <value>Preparing...</value>
+  </data>
+  <data name="Duplicates_Search" xml:space="preserve">
+    <value>Search for duplicates</value>
+    
+  </data>
+  <data name="Main_SearchingDuplicates" xml:space="preserve">
+    <value>Searching for duplicates...</value>
+    
+  </data>
+  <data name="ErrorInfo_SendReport" xml:space="preserve">
+    <value>Send report...</value>
+  </data>
+  <data name="ErrorInfo_Title" xml:space="preserve">
+    <value>Something went wrong</value>
+  </data>
+  <data name="Feedback_Sending" xml:space="preserve">
+    <value>Sending...</value>
+  </data>
+  <data name="AdvancedDetails" xml:space="preserve">
+    <value>Advanced details</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Item_Columns_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Item_Columns_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Item_Columns_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Item_Columns_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Tab_TopFiles" xml:space="preserve">
+    <value>Top Files</value>
+  </data>
+  <data name="Tab_Contents" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="Item_Open" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="Item_OpenLocation" xml:space="preserve">
+    <value>Open location</value>
+  </data>
+  <data name="Item_Delete" xml:space="preserve">
+    <value>Delete...</value>
+  </data>
+  <data name="Item_CopyAsName" xml:space="preserve">
+    <value>Copy as name</value>
+  </data>
+  <data name="Item_CopyAsPath" xml:space="preserve">
+    <value>Copy as path</value>
+  </data>
+  <data name="Item_Properties" xml:space="preserve">
+    <value>Properties...</value>
+  </data>
+  <data name="TopType_Top5" xml:space="preserve">
+    <value>Top 5</value>
+  </data>
+  <data name="TopType_Top10" xml:space="preserve">
+    <value>Top 10</value>
+  </data>
+  <data name="TopType_Top50" xml:space="preserve">
+    <value>Top 50</value>
+  </data>
+  <data name="TopType_Top100" xml:space="preserve">
+    <value>Top 100</value>
+  </data>
+  <data name="TopType_Top500" xml:space="preserve">
+    <value>Top 500</value>
+  </data>
+  <data name="TopType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SortingType_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SortingType_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="SortingType_Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="Item_Columns_Used" xml:space="preserve">
+    <value>Used</value>
+  </data>
+  <data name="Item_Columns_Percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="Duplicates_Search_Title" xml:space="preserve">
+    <value>Duplicate search</value>
+  </data>
+  <data name="Duplicates_Result_NotFound" xml:space="preserve">
+    <value>No duplicates were found.</value>
+  </data>
+  <data name="Fs_Undefined" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="Fs_FileNotFound" xml:space="preserve">
+    <value>&lt;file has been renamed or deleted&gt;</value>
+  </data>
+  <data name="Fs_FileType_Folder" xml:space="preserve">
+    <value>File folder</value>
+  </data>
+  <data name="Pavel" xml:space="preserve">
+    <value>Pavel Mikhaylov</value>
+  </data>
+  <data name="About_Description" xml:space="preserve">
+    <value>Aya is a well-designed tool that helps you take control over your large files 
+and get rid of the useless ones.</value>
+  </data>
+  <data name="About_Eula" xml:space="preserve">
+    <value>End-User License Agreement</value>
+  </data>
+  <data name="About_PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="About_AllRightsReserved" xml:space="preserve">
+    <value>All rights reserved.</value>
+  </data>
+  <data name="Update_Status_CheckingForUpdates" xml:space="preserve">
+    <value>Checking for updates...</value>
+  </data>
+  <data name="Update_ReleaseNotes" xml:space="preserve">
+    <value>Release notes</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="About_Donate_p2_ViaPayPal" xml:space="preserve">
+    <value>donate via PayPal.</value>
+  </data>
+  <data name="About_Donate_p1_HelpUsImprove" xml:space="preserve">
+    <value>Help us to improve Aya, </value>
+    
+  </data>
+  <data name="About_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="About_CopyMachineId" xml:space="preserve">
+    <value>Copy Machine ID</value>
+  </data>
+  <data name="Main_UpOneLevel" xml:space="preserve">
+    <value>Up one level</value>
+  </data>
+  <data name="Feedback_Attachment_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Settings_Proxy_Change" xml:space="preserve">
+    <value>Change proxy settings...</value>
+  </data>
+  <data name="Settings_Duplicates_MatchByContent" xml:space="preserve">
+    <value>Match by content (slower, but more accurate)</value>
+  </data>
+  <data name="Settings_Duplicates_MatchByName" xml:space="preserve">
+    <value>Match by name</value>
+  </data>
+  <data name="Settings_Duplicates_MatchByModifiedDate" xml:space="preserve">
+    <value>Match by modified date</value>
+  </data>
+  <data name="Settings_Duplicates_MatchBySize" xml:space="preserve">
+    <value>Match by size</value>
+  </data>
+  <data name="Settings_IgnoreZeroByteFiles" xml:space="preserve">
+    <value>Ignore zero byte files</value>
+  </data>
+  <data name="Proxy_Title" xml:space="preserve">
+    <value>Proxy settings</value>
+  </data>
+  <data name="Units_Mb" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Settings_Duplicates_IgnoreFileSizeOver" xml:space="preserve">
+    <value>Ignore file size over</value>
+    <comment>e.g. Ignore file size over 2 GB</comment>
+  </data>
+  <data name="EmptyState_NoItems" xml:space="preserve">
+    <value>There are no items to show in this view.</value>
+  </data>
+  <data name="Proxy_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Proxy_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Proxy_NoProxy" xml:space="preserve">
+    <value>No proxy</value>
+  </data>
+  <data name="Proxy_UseSystem" xml:space="preserve">
+    <value>Use system proxy settings</value>
+  </data>
+  <data name="Proxy_UseSpecified" xml:space="preserve">
+    <value>Use custom proxy</value>
+  </data>
+  <data name="Proxy_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Proxy_UseServerAuth" xml:space="preserve">
+    <value>Use proxy server authentication</value>
+  </data>
+  <data name="Licensing_HowToGetProductKey" xml:space="preserve">
+    <value>How can I receive a product key?</value>
+  </data>
+  <data name="Licensing" xml:space="preserve">
+    <value>Licensing</value>
+  </data>
+  <data name="Licensing_License" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="Licensing_ProductKeyLooksLike" xml:space="preserve">
+    <value>The product key looks similar to this:</value>
+  </data>
+  <data name="Licensing_Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Licensing_KeyDoesntWork" xml:space="preserve">
+    <value>This product key doesn't work</value>
+  </data>
+  <data name="Licensing_LicenseStatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="Licensing_Error_Activating" xml:space="preserve">
+    <value>An error occurred while activating</value>
+  </data>
+  <data name="Licensing_EnterYourProductKey" xml:space="preserve">
+    <value>Please enter your product key to upgrade to another edition.</value>
+  </data>
+  <data name="Licensing_ProductKey" xml:space="preserve">
+    <value>Product key:</value>
+  </data>
+  <data name="Licensing_ActivationDate" xml:space="preserve">
+    <value>Activation date:</value>
+  </data>
+  <data name="Developer" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Language_Restart_Restart" xml:space="preserve">
+    <value>Restart now</value>
+  </data>
+  <data name="Language_Restart_Cancel" xml:space="preserve">
+    <value>Don't restart</value>
+  </data>
+  <data name="Language_Restart_Title" xml:space="preserve">
+    <value>Restart the application?</value>
+  </data>
+  <data name="Duplicates_Result_Title" xml:space="preserve">
+    <value>Search result</value>
+  </data>
+  <data name="Duplicates_Result_Searching" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Duplicates_Result_NotRun" xml:space="preserve">
+    <value>Search wasn't carried out.</value>
+    
+  </data>
+  <data name="Donate_Title" xml:space="preserve">
+    <value>Support us!</value>
+  </data>
+  <data name="Donate_Desc" xml:space="preserve">
+    <value>High-quality application development takes much time and resources. If you find the application useful and would like to support our efforts, please consider donating.</value>
+  </data>
+  <data name="Donate_Instructions_Title" xml:space="preserve">
+    <value>Donate via Credit Card or Paypal</value>
+  </data>
+  <data name="Donate_Instructions_Desc" xml:space="preserve">
+    <value>You can donate money to the project through our PayPal account. There is no minimum amount for your donation, but keep in mind that PayPal charges us a fee for each donation.
+
+If you click on one of the buttons below, you will be taken to the secure PayPal website. You don't need to have a PayPal account in order to make a donation.
+
+As a contributor to Aya, you receive a product key that disables the donation prompt, which is displayed from time to time in the application.</value>
+  </data>
+  <data name="Donate" xml:space="preserve">
+    <value>Donate</value>
+  </data>
+  <data name="About_Support_ContactEmail" xml:space="preserve">
+    <value>Contact us via email</value>
+  </data>
+  <data name="About_Support_Github" xml:space="preserve">
+    <value>Explore known issues on GitHub</value>
+  </data>
+  <data name="About_Support_Desc" xml:space="preserve">
+    <value>Have you identified a reproducible problem in Aya? Have a feature request? Want to tell us about your experience with Aya? We want to know about it! You can write us using our in-app feedback tool or report an issue on GitHub.</value>
+  </data>
+  <data name="Fs_FolderNotFound" xml:space="preserve">
+    <value>&lt;folder has been renamed or deleted&gt;</value>
+  </data>
+  <data name="Settings_Shell" xml:space="preserve">
+    <value>Shell integration</value>
+  </data>
+  <data name="Settings_Shell_OpenWith_p2_OpenWithApp" xml:space="preserve">
+    <value>Open with Aya</value><comment>This string is used as context menu item in system</comment>
+  </data>
+  <data name="Settings_Shell_OpenWith_p1_Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>e.g. Add "Open with Aya" to Drive menu</comment>
+  </data>
+  <data name="Settings_Shell_OpenWith_p3_OptionToFolderMenu" xml:space="preserve">
+    <value>to Folder menu</value>
+  </data>
+  <data name="Settings_Shell_OpenWith_p3_OptionToDriveMenu" xml:space="preserve">
+    <value>to Drive menu</value>
+  </data>
+  <data name="ErrorInfo_CopyToClipboard" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="Main_SearchDuplicatesWithDefaults" xml:space="preserve">
+    <value>Search for duplicates with default settings</value>
+    
+  </data>
+  <data name="FileType_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="FileType_Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="FileType_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="FileType_Applications" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="FileType_Compressed" xml:space="preserve">
+    <value>Compressed</value>
+  </data>
+  <data name="Settings_Filters_Extensions" xml:space="preserve">
+    <value>Extensions</value>
+  </data>
+  <data name="Settings_RestoreDefaults" xml:space="preserve">
+    <value>Restore defaults</value>
+  </data>
+  <data name="Settings_ExcludeList_Files_Masks" xml:space="preserve">
+    <value>Enter name or pattern, e.g. index.dat, unins*.exe, .dll</value>
+  </data>
+  <data name="Settings_ExcludeList_Folders_Masks" xml:space="preserve">
+    <value>Enter path or pattern, e.g. *\appdata\, *\local*\</value>
+  </data>
+  <data name="Settings_ExcludeList_Folders" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="Settings_ExcludeList_Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="Settings_ExcludeList_RestoreDefaults" xml:space="preserve">
+    <value>Restore exclude list to its original defaults</value>
+  </data>
+  <data name="Settings_IgnoreReadOnlyFiles" xml:space="preserve">
+    <value>Ignore read only files</value>
+  </data>
+  <data name="Feedback_Attachment_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Feedback_Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="Feedback_Attachment_Logs" xml:space="preserve">
+    <value>Log files</value>
+  </data>
+  <data name="Feedback_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Feedback_ProblemReport_Desc" xml:space="preserve">
+    <value>Tell us about your problem and steps how to reproduce the issue.</value>
+  </data>
+  <data name="Feedback_OptionalEmail" xml:space="preserve">
+    <value>Email address (optional)</value>
+  </data>
+  <data name="Feedback_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Feedback_ProblemReport_Title" xml:space="preserve">
+    <value>Tell us what has happened</value>
+  </data>
+  <data name="Feedback_ReportType_Problem" xml:space="preserve">
+    <value>Problem</value>
+  </data>
+  <data name="Feedback_ReportType_Feedback" xml:space="preserve">
+    <value>Feedback or suggestion</value>
+  </data>
+  <data name="Feedback_AddAttachment" xml:space="preserve">
+    <value>Add attachment</value>
+  </data>
+  <data name="Feedback_DeleteAttachment" xml:space="preserve">
+    <value>Delete attachment</value>
+  </data>
+  <data name="Feedback_ReportType" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Feedback_FeedbackReport_Title" xml:space="preserve">
+    <value>How was your experience?</value>
+  </data>
+  <data name="Feedback_FeedbackReport_Desc" xml:space="preserve">
+    <value>Tell us why? What would you like to suggest?</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Feedback_AttachmentLimit_Desc" xml:space="preserve">
+    <value>The attachment size exceeds the allowable limit
+by {0} KB.</value>
+  </data>
+  <data name="Feedback_AttachmentLimit_Title" xml:space="preserve">
+    <value>Attachment limit</value>
+  </data>
+  <data name="ErrorInfo_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Attachment_ErrorDetails" xml:space="preserve">
+    <value>Error details</value>
+  </data>
+  <data name="Feedback_SaveReportToDisk" xml:space="preserve">
+    <value>Save report to disk for sending via email...</value>
+  </data>
+  <data name="ZipArchives" xml:space="preserve">
+    <value>ZIP archives</value>
+  </data>
+  <data name="Feedback_ReportSaved" xml:space="preserve">
+    <value>Feedback report saved</value>
+  </data>
+  <data name="Feedback_ReportNotSaved" xml:space="preserve">
+    <value>Feedback report not saved</value>
+  </data>
+  <data name="Feedback_NothingToSave" xml:space="preserve">
+    <value>Nothing to save.</value>
+  </data>
+  <data name="Feedback_ReportSavedTo" xml:space="preserve">
+    <value>Feedback report is successfully saved to:</value>
+  </data>
+  <data name="Feedback_ComposeEmail" xml:space="preserve">
+    <value>Compose email...</value>
+  </data>
+  <data name="About_Update_FullChangelog" xml:space="preserve">
+    <value>Full changelog</value>
+    
+  </data>
+  <data name="Update_CancelDownloadUpdate" xml:space="preserve">
+    <value>Cancel download</value>
+  </data>
+  <data name="About_Support_SendFeedback" xml:space="preserve">
+    <value>Send feedback...</value>
+    
+  </data>
+  <data name="Duplicates_Result_PrevSearch_p1_Detected" xml:space="preserve">
+    <value>Previous search detected</value>
+    <comment>e.g. Previous search detected 16 duplicate groups.</comment>
+  </data>
+  <data name="Duplicates_Result_PrevSearch_p2_Groups" xml:space="preserve">
+    <value>{0} duplicate groups.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Licensing_ExpirationDate" xml:space="preserve">
+    <value>Expiration date:</value>
+  </data>
+  <data name="Licensing_Remaining" xml:space="preserve">
+    <value>Remaining:</value>
+    <comment>e.g. Remaining: 2 days</comment>
+  </data>
+  <data name="Na" xml:space="preserve">
+    <value>N/A</value>
+    <comment>(Not available)</comment>
+  </data>
+  <data name="Licensing_Edition" xml:space="preserve">
+    <value>Edition:</value>
+  </data>
+  <data name="Licensing_LicenseType" xml:space="preserve">
+    <value>License type:</value>
+  </data>
+  <data name="Licensing_DeleteLicense" xml:space="preserve">
+    <value>Delete license...</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Licensing_Details" xml:space="preserve">
+    <value>Details...</value>
+  </data>
+  <data name="Licensing_AppIsLicensedTo" xml:space="preserve">
+    <value>The application is licensed to {0}.</value>
+  </data>
+  <data name="Licensing_LicenseInformation" xml:space="preserve">
+    <value>License information</value>
+  </data>
+  <data name="Licensing_ManageSubscription" xml:space="preserve">
+    <value>Manage subscription</value>
+  </data>
+  <data name="Licensing_CustomerFullName" xml:space="preserve">
+    <value>Full name:</value>
+  </data>
+  <data name="Licensing_CustomerCompany" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="Licensing_CustomerEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Licensing_CustomerInfo" xml:space="preserve">
+    <value>User information</value>
+  </data>
+  <data name="Licensing_UpgradeLicense" xml:space="preserve">
+    <value>Upgrade license</value>
+  </data>
+  <data name="Licensing_Delete_Title" xml:space="preserve">
+    <value>Delete active license?</value>
+  </data>
+  <data name="Licensing_Delete_Desc" xml:space="preserve">
+    <value>To restore the license or obtain a new one, go to the application website or contact support.</value>
+  </data>
+  <data name="Licensing_LicenseDevices" xml:space="preserve">
+    <value>Devices:</value>
+  </data>
+  <data name="Licensing_Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Licensing_Expired" xml:space="preserve">
+    <value>Expired:</value>
+    <comment>(Days count)</comment>
+  </data>
+  <data name="Licensing_RestoreProductKey" xml:space="preserve">
+    <value>Restore product key</value>
+  </data>
+  <data name="Licensing_ThankYou" xml:space="preserve">
+    <value>Thank you for choosing Aya.</value>
+  </data>
+  <data name="Licensing_Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Licensing_ActivationCompleted" xml:space="preserve">
+    <value>Activation completed successfully</value>
+  </data>
+  <data name="Licensing_AppDowngradedToFree" xml:space="preserve">
+    <value>The application edition is switched to Free.</value>
+  </data>
+  <data name="Licensing_RecommendPurchase" xml:space="preserve">
+    <value>We recommend that you purchase a license.</value>
+    
+  </data>
+  <data name="Licensing_DeleteLicenseAndReactivateApp" xml:space="preserve">
+    <value>Delete the current license file and reactivate the application.</value>
+    
+  </data>
+  <data name="Licensing_LicenseFileNotFound" xml:space="preserve">
+    <value>License file not found</value>
+  </data>
+  <data name="Licensing_LicenseFileCorrupted" xml:space="preserve">
+    <value>License file is corrupted</value>
+  </data>
+  <data name="Licensing_LicenseFileUnknown" xml:space="preserve">
+    <value>Unknown license status</value>
+  </data>
+  <data name="Licensing_LicenseExpiredDaysAgo" xml:space="preserve">
+    <value>Expired {0} days ago</value>
+  </data>
+  <data name="Licensing_DonationLicense" xml:space="preserve">
+    <value>Donation license</value>
+  </data>
+  <data name="Licensing_TrialLicense" xml:space="preserve">
+    <value>Trial: {0} days remaining</value>
+  </data>
+  <data name="Licensing_SubscriptionDaysRemaining" xml:space="preserve">
+    <value>Subscription: {0} days remaining</value>
+  </data>
+  <data name="Licensing_LifetimeLicense" xml:space="preserve">
+    <value>Lifetime license</value>
+  </data>
+  <data name="Licensing_ValidityLifetime" xml:space="preserve">
+    <value>Validity period: Lifetime.</value>
+  </data>
+  <data name="Licensing_ValidBefore" xml:space="preserve">
+    <value>License is valid before {0}.</value>
+    <comment>e.g. License is valid before 16-Jan-2022</comment>
+  </data>
+  <data name="Licensing_ValidityNotLimited" xml:space="preserve">
+    <value>The validity of your license is not limited. If you need to restore the product key, you can do it on our website.</value>
+  </data>
+  <data name="Licensing_ThanksForDonation" xml:space="preserve">
+    <value>Thank you for your support. Your donation is greatly appreciated and will help to advance development and make Aya even better.</value>
+  </data>
+  <data name="Licensing_AfterTrial_Desc" xml:space="preserve">
+    <value>After the trial period, the application edition will be switched to Free. The trial version can only be used once.</value>
+  </data>
+  <data name="MainViewMode_Default" xml:space="preserve">
+    <value>Default mode</value>
+  </data>
+  <data name="MainViewMode_Advanced" xml:space="preserve">
+    <value>Advanced mode</value>
+  </data>
+  <data name="MainViewMode_Scanning" xml:space="preserve">
+    <value>Scanning...</value>
+  </data>
+  <data name="Main_Scanning" xml:space="preserve">
+    <value>Scanning...</value>
+  </data>
+  <data name="Exclusions_Reason_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Exclusions_Reason_Filtered" xml:space="preserve">
+    <value>Filtered</value>
+  </data>
+  <data name="EmptyState_ManyItems" xml:space="preserve">
+    <value>There are too many items to show in this view.</value>
+  </data>
+  <data name="ExtraItems_ProceedDelete" xml:space="preserve">
+    <value>Proceed with deletion</value>
+  </data>
+  <data name="Update_DownloadUpdate" xml:space="preserve">
+    <value>Download update</value>
+  </data>
+  <data name="Update_RestartToInstallUpdate" xml:space="preserve">
+    <value>Restart to install update</value>
+  </data>
+  <data name="Update_Status_UpdateAvailable" xml:space="preserve">
+    <value>Aya {0} is available</value>
+  </data>
+  <data name="Update_Status_ReadyToInstall" xml:space="preserve">
+    <value>Aya {0} is ready to install</value>
+    <comment>e.g. Aya 1.2.10 is ready to install</comment>
+  </data>
+  <data name="Update_Status_DownloadingUpdate" xml:space="preserve">
+    <value>Downloading Aya</value>
+  </data>
+  <data name="Update_LastChecked" xml:space="preserve">
+    <value>Last checked:</value>
+  </data>
+  <data name="Update_NeverChecked" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="Update_Status_NotChecked" xml:space="preserve">
+    <value>Update check has not been performed in this session</value>
+  </data>
+  <data name="Update_Status_DownloadPending" xml:space="preserve">
+    <value>Download pending...</value>
+  </data>
+  <data name="Update_CurrentVersion" xml:space="preserve">
+    <value>Current version is {0}</value>
+    <comment>e.g. Current version is 1.2.10</comment>
+  </data>
+  <data name="Update_SwitchToUnstableChannel_Title" xml:space="preserve">
+    <value>You are switching to unstable channel</value>
+  </data>
+  <data name="Update_SwitchToUnstableChannel_Desc" xml:space="preserve">
+    <value>You are switching to unstable versions, which contain features that are in progress. Crashes and unexpected bugs may occur. Please, proceed with caution.</value>
+  </data>
+  <data name="Update_ChangeChannel" xml:space="preserve">
+    <value>Change channel</value>
+  </data>
+  <data name="Feedback_ReportProblem" xml:space="preserve">
+    <value>Report a problem...</value>
+  </data>
+  <data name="Feedback_SendFeedback" xml:space="preserve">
+    <value>Send feedback...</value>
+    
+  </data>
+  <data name="Exclusions_Reason_Error_Desc" xml:space="preserve">
+    <value>Errors reading files and/or their metadata</value>
+  </data>
+  <data name="Exclusions_Reason_Filtered_Desc" xml:space="preserve">
+    <value>Filtering according to settings and exclude lists</value>
+  </data>
+  <data name="Fs_ItemNotFound" xml:space="preserve">
+    <value>Item has been moved, renamed, or deleted</value>
+  </data>
+  <data name="Exclusions_Title" xml:space="preserve">
+    <value>Exclusions</value>
+  </data>
+  <data name="Settings_Filters_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Settings_Filters_RestoreDefaults" xml:space="preserve">
+    <value>Restore all groups to their original defaults</value>
+  </data>
+  <data name="Language_Restart_Desc" xml:space="preserve">
+    <value>Language settings have been changed. To apply changes now, restart the application.</value>
+  </data>
+  <data name="Feedback_Attachment_Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="Main_StopScanning" xml:space="preserve">
+    <value>Stop scanning</value>
+  </data>
+  <data name="Licensing_ChangeProductKey" xml:space="preserve">
+    <value>Change product key</value>
+  </data>
+  <data name="Licensing_LicenseExpiredYesterday" xml:space="preserve">
+    <value>Expired yesterday</value>
+  </data>
+  <data name="Licensing_LicenseExpiresToday" xml:space="preserve">
+    <value>Expires today</value>
+  </data>
+  <data name="DontAskMeAgain" xml:space="preserve">
+    <value>Don't ask me again</value>
+    
+  </data>
+  <data name="ExeRunAction_Ask" xml:space="preserve">
+    <value>Ask each time</value>
+  </data>
+  <data name="ExeRunAction_Allow" xml:space="preserve">
+    <value>Allow</value>
+  </data>
+  <data name="ExeRunAction_Deny" xml:space="preserve">
+    <value>Don't allow</value>
+  </data>
+  <data name="Exe_AllowToRun_Yes" xml:space="preserve">
+    <value>Allow</value>
+  </data>
+  <data name="Exe_AllowToRun_Title" xml:space="preserve">
+    <value>Allow to run this file?</value>
+  </data>
+  <data name="Exe_AllowToRun_Desc" xml:space="preserve">
+    <value>File "{0}" will be run with administrative privileges and may harm your computer.</value>
+  </data>
+  <data name="Settings_Exe_AllowToRun" xml:space="preserve">
+    <value>Allow to run executables</value>
+  </data>
+  <data name="Settings_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="Percent_OfScan_Desc" xml:space="preserve">
+    <value>Percent of total scanned space</value>
+  </data>
+  <data name="Percent_OfDisk_Desc" xml:space="preserve">
+    <value>Percent of disk used space</value>
+  </data>
+  <data name="Percent_OfComputer_Desc" xml:space="preserve">
+    <value>Percent of whole PC used space</value>
+  </data>
+  <data name="Percent_OfFolder_Desc" xml:space="preserve">
+    <value>Percent of current folder space</value>
+  </data>
+  <data name="Exclusions_Desc" xml:space="preserve">
+    <value>Files and folders that are excluded from the results according to the settings, exclude lists or due to scanning problems.</value>
+  </data>
+  <data name="About_ThirdPartyNotices" xml:space="preserve">
+    <value>Third-Party Notices</value>
+  </data>
+  <data name="About_CopyrightWarning" xml:space="preserve">
+    <value>Warning: This program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.</value>
+  </data>
+  <data name="Feedback_ReportType_Translation" xml:space="preserve">
+    <value>Improving translation</value>
+  </data>
+  <data name="Update_Changelog" xml:space="preserve">
+    <value>Changelog</value>
+  </data>
+  <data name="Licensing_IsExpired" xml:space="preserve">
+    <value>Expired</value>
+    
+  </data>
+  <data name="Licensing_IsActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Licensing_ForComputers" xml:space="preserve">
+    <value>For {0} PC's</value>
+  </data>
+  <data name="Licensing_Days" xml:space="preserve">
+    <value>days</value>
+    <comment>e.g. 16 days</comment>
+  </data>
+  <data name="Licensing_ActivateTrial" xml:space="preserve">
+    <value>Activate trial version</value>
+  </data>
+  <data name="Licensing_ActivateTrial_p1_Try" xml:space="preserve">
+    <value>Try</value>
+    
+    <comment>e.g. Try Aya Advanced right now!</comment>
+  </data>
+  <data name="Licensing_Licensee" xml:space="preserve">
+    <value>AYA AWESOME USER</value>
+    <comment>(Default username)</comment>
+  </data>
+  <data name="Upgrade_DontAskAgainAndUseFreeVersion" xml:space="preserve">
+    <value>Don't ask me again &amp; continue using Free version</value>
+  </data>
+  <data name="Upgrade_UpgradeTo" xml:space="preserve">
+    <value>Upgrade to</value>
+    <comment>e.g. Upgrade to Aya Advanced</comment>
+  </data>
+  <data name="AppService_Usage_Title" xml:space="preserve">
+    <value>App service usage</value>
+  </data>
+  <data name="Fs_ReshapingCollectedData" xml:space="preserve">
+    <value>Reshaping collected data...</value>
+  </data>
+  <data name="Fs_ReparsePointsNotSupported" xml:space="preserve">
+    <value>Reparse points are currently not supported.</value>
+  </data>
+  <data name="Fs_FilteredByPath" xml:space="preserve">
+    <value>Filtered by path pattern: "{0}"</value>
+  </data>
+  <data name="Fs_FilteredByFileAttributes" xml:space="preserve">
+    <value>Filtered by file attributes conditions: "{0}"</value>
+  </data>
+  <data name="Fs_FilteredByFileSize" xml:space="preserve">
+    <value>Filtered by file size conditions: "{0}"</value>
+  </data>
+  <data name="FileType_Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="ScanSource_Folder_Caption" xml:space="preserve">
+    <value>Path:</value>
+  </data>
+  <data name="ScanSource_Snapshot_Caption" xml:space="preserve">
+    <value>Snapshot:</value>
+  </data>
+  <data name="ScanSource_Unc_Caption" xml:space="preserve">
+    <value>UNC path:</value>
+  </data>
+  <data name="Update_Channel_Beta" xml:space="preserve">
+    <value>Beta channel</value>
+  </data>
+  <data name="Update_Channel_Dev" xml:space="preserve">
+    <value>Developer channel</value>
+  </data>
+  <data name="Update_Channel_Stable" xml:space="preserve">
+    <value>Stable channel</value>
+  </data>
+  <data name="Update_Channel_Beta_Desc" xml:space="preserve">
+    <value>Upcoming changes and improvements before they land on the stable channel. Crashes and unexpected bugs might occur. Intended for developers and early adopters.</value>
+  </data>
+  <data name="Update_Channel_Dev_Desc" xml:space="preserve">
+    <value>The latest features that are in progress. Crashes and unexpected bugs may occur.</value>
+  </data>
+  <data name="Update_Channel_Stable_Desc" xml:space="preserve">
+    <value>Stable and fully tested versions that don't contain experimental features.</value>
+  </data>
+  <data name="RecycleBin_CurrentUser" xml:space="preserve">
+    <value>Current user's Recycle Bin</value>
+  </data>
+  <data name="RecycleBin_PercentOfUsed" xml:space="preserve">
+    <value>{0}% of {1} used</value>
+    <comment>e.g. 8% of 16 GB used</comment>
+  </data>
+  <data name="RecycleBin_Items" xml:space="preserve">
+    <value>{0} items</value>
+    <comment>e.g. 16 items</comment>
+  </data>
+  <data name="Fs_FileType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Licensing_WrongProduct" xml:space="preserve">
+    <value>This product key is not intended for the product</value>
+  </data>
+  <data name="Licensing_InvalidKeyLength" xml:space="preserve">
+    <value>Invalid product key length</value>
+  </data>
+  <data name="Licensing_InactiveKey" xml:space="preserve">
+    <value>This product key is inactive</value>
+  </data>
+  <data name="Licensing_UnregisteredKey" xml:space="preserve">
+    <value>This product key is unregistered</value>
+  </data>
+  <data name="Licensing_KeyExpired" xml:space="preserve">
+    <value>This product key is expired</value>
+  </data>
+  <data name="Licensing_TrialExpired" xml:space="preserve">
+    <value>Your trial is expired</value>
+  </data>
+  <data name="AppService_NotAvailable" xml:space="preserve">
+    <value>App service not available</value>
+  </data>
+  <data name="AppService_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="AppService_Connecting" xml:space="preserve">
+    <value>Connecting to app service...</value>
+  </data>
+  <data name="Settings_Error_LoadSettings" xml:space="preserve">
+    <value>Unable to load user settings. Settings will be reset to defaults.</value>
+  </data>
+  <data name="Settings_Error_SetUacWarning" xml:space="preserve">
+    <value>Unable to set UAC warning</value>
+  </data>
+  <data name="Settings_Error_SetContextMenuDrive" xml:space="preserve">
+    <value>Unable to set context menu for drives</value>
+  </data>
+  <data name="Settings_Error_SetContextMenuFolder" xml:space="preserve">
+    <value>Unable to set context menu for folders</value>
+  </data>
+  <data name="Filters_Error_LoadFilters" xml:space="preserve">
+    <value>Unable to load user filters. Filters will be reset to defaults.</value>
+  </data>
+  <data name="RecycleBin_Error_Empty" xml:space="preserve">
+    <value>Unable to empty Recycle Bin</value>
+  </data>
+  <data name="Fs_InitDeviceLayers" xml:space="preserve">
+    <value>Initializing device layers...</value>
+    
+  </data>
+  <data name="Fs_Collecting" xml:space="preserve">
+    <value>Collecting...</value>
+  </data>
+  <data name="Fs_Projecting" xml:space="preserve">
+    <value>Projecting...</value>
+  </data>
+  <data name="RecycleBin_Empty_Title" xml:space="preserve">
+    <value>Empty Recycle Bin?</value>
+  </data>
+  <data name="RecycleBin_Empty_Desc" xml:space="preserve">
+    <value>The Recycle Bin may not be fully emptied. The files on the scanned disks will be deleted.</value>
+  </data>
+  <data name="RecycleBin_Empty_Empty" xml:space="preserve">
+    <value>Empty</value>
+    <comment>(Verb)</comment>
+  </data>
+  <data name="Validation_FieldRequired" xml:space="preserve">
+    <value>Field is required</value>
+  </data>
+  <data name="Validation_FqPathRequired" xml:space="preserve">
+    <value>Fully qualified path is required</value>
+  </data>
+  <data name="Validation_DirectoryNotFound" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="Validation_FieldNotSet" xml:space="preserve">
+    <value>Field not set</value>
+  </data>
+  <data name="Validation_IncorrectPort" xml:space="preserve">
+    <value>Incorrect port</value>
+  </data>
+  <data name="Validation_PortHint" xml:space="preserve">
+    <value>Port must be set between 1 and 65535</value>
+  </data>
+  <data name="Update_String_Desc" xml:space="preserve">
+    <value>An updated version of Aya is downloaded and will be installed at the next launch.</value>
+  </data>
+  <data name="Update_String_p4_RestartNow" xml:space="preserve">
+    <value>restart now.</value>
+  </data>
+  <data name="Update_String_p2_WhatsNew" xml:space="preserve">
+    <value>what's new</value>
+  </data>
+  <data name="Update_String_p1_See" xml:space="preserve">
+    <value>See</value>
+    <comment>e.g. See what's new or restart now</comment>
+  </data>
+  <data name="Update_String_p3_Or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Update_UpdateManually" xml:space="preserve">
+    <value>Download manually</value>
+  </data>
+  <data name="Licensing_Na" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="Licensing_DaysRemaining" xml:space="preserve">
+    <value>{0} days remaining</value>
+    <comment>e.g. 16 days remaining</comment>
+  </data>
+  <data name="Main_NewScan_Title" xml:space="preserve">
+    <value>Start new scan?</value>
+    
+  </data>
+  <data name="Main_NewScan_Desc" xml:space="preserve">
+    <value>Your current scan results will be lost.</value>
+  </data>
+  <data name="Main_NewScan_NewScan" xml:space="preserve">
+    <value>New scan</value>
+  </data>
+  <data name="Main_AddScanSource" xml:space="preserve">
+    <value>Add source...</value>
+  </data>
+  <data name="Main_AddOneMoreScanSource" xml:space="preserve">
+    <value>Add one more source...</value>
+  </data>
+  <data name="Main_SwitchToAdvanced" xml:space="preserve">
+    <value>Switch to advanced mode</value>
+  </data>
+  <data name="Main_SwitchToDefault" xml:space="preserve">
+    <value>Switch to default mode</value>
+  </data>
+  <data name="Settings_Tab_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Settings_Tab_Scan" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="Settings_Tab_ExcludeList" xml:space="preserve">
+    <value>Exclude list</value>
+  </data>
+  <data name="Settings_Tab_Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="Settings_Tab_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Settings_Tab_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ExtraItems_Title" xml:space="preserve">
+    <value>Extra files or folders detected</value>
+  </data>
+  <data name="Feedback_Translation_OtherLanguage" xml:space="preserve">
+    <value>Other language</value>
+  </data>
+  <data name="Feedback_TranslationReport_Title_p1_Want" xml:space="preserve">
+    <value>I would like to</value>
+    <comment>e.g. I would like to improve existing translation</comment>
+  </data>
+  <data name="Feedback_TranslationReport_Existing_Desc" xml:space="preserve">
+    <value>Found a typo in the text? Do you know the better way to rephrase the sentence? What would you like to improve?
+
+It will be great if you attach an image for clarity!</value>
+  </data>
+  <data name="Feedback_TranslationReport_New_Desc" xml:space="preserve">
+    <value>If you want to translate the application to the selected language, enter some information about yourself and specify your email for contact.</value>
+  </data>
+  <data name="Feedback_RequiredEmail" xml:space="preserve">
+    <value>Email address (required)</value>
+  </data>
+  <data name="Feedback_Error_Send" xml:space="preserve">
+    <value>Unable to send the feedback report. Try again or save the report for manual sending.</value>
+  </data>
+  <data name="Feedback_TranslationReport_Title_p2_Existing" xml:space="preserve">
+    <value>improve existing translation</value>
+  </data>
+  <data name="Feedback_TranslationReport_Title_p2_New" xml:space="preserve">
+    <value>make a new translation</value>
+  </data>
+  <data name="Settings_Filters_NewGroupName" xml:space="preserve">
+    <value>New group</value>
+  </data>
+  <data name="Settings_Filters_AddGroup" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Settings_Filters_CreateGroup" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Settings_Filters_KeepCustomGroups" xml:space="preserve">
+    <value>Keep user groups</value>
+  </data>
+  <data name="Settings_Filters_RestoreFilters_Title" xml:space="preserve">
+    <value>Restore all filter groups?</value>
+    
+  </data>
+  <data name="Settings_Filters_RestoreFilters_Desc" xml:space="preserve">
+    <value>Default groups will be restored to their original state.</value>
+    
+  </data>
+  <data name="Settings_Filters_RestoreFilters_Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Settings_Filters_GroupName" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+  <data name="Settings_Filters_EnterGroupName" xml:space="preserve">
+    <value>Enter group name</value>
+    
+  </data>
+  <data name="Settings_Filters_GroupNameRequired" xml:space="preserve">
+    <value>Group name must be set</value>
+  </data>
+  <data name="Settings_Filters_GroupAlreadyExists" xml:space="preserve">
+    <value>Group with this name already exists</value>
+  </data>
+  <data name="Settings_Filters_CopyTag" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Settings_ExcludeList_Restore_Title" xml:space="preserve">
+    <value>Restore defaults?</value>
+  </data>
+  <data name="Settings_ExcludeList_Restore_Desc" xml:space="preserve">
+    <value>Exclude lists will be restored to their original state.</value>
+    
+  </data>
+  <data name="Settings_ExcludeList_Restore_Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Settings_Error_GetLogFilePath" xml:space="preserve">
+    <value>Unable to get current log file path.</value>
+  </data>
+  <data name="Settings_Error_OpenLogFile" xml:space="preserve">
+    <value>Unable to open current log file.</value>
+  </data>
+  <data name="Settings_Error_OpenLogLocation" xml:space="preserve">
+    <value>Unable to open current log file location.</value>
+  </data>
+  <data name="ReadyToDelete_ToRecycleBin" xml:space="preserve">
+    <value>Move to Recycle Bin</value>
+  </data>
+  <data name="ReadyToDelete_DeletePermanently" xml:space="preserve">
+    <value>Permanently delete</value>
+  </data>
+  <data name="Duplicates_Cancelling" xml:space="preserve">
+    <value>Cancelling...</value>
+  </data>
+  <data name="Duplicates_CancelOperation" xml:space="preserve">
+    <value>Cancel operation</value>
+  </data>
+  <data name="Duplicates_DeleteGroup_Title" xml:space="preserve">
+    <value>Delete selected group?</value>
+  </data>
+  <data name="Duplicates_DeleteGroup_Desc" xml:space="preserve">
+    <value>You're about to delete entire duplicate group. This means that all files in that group will be deleted.</value>
+  </data>
+  <data name="Duplicates_DeleteGroup" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Duplicates_RepeatSerach" xml:space="preserve">
+    <value>Repeat search</value>
+  </data>
+  <data name="Duplicates" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="RecycleBin_Disabled_DeletePermanently_Title" xml:space="preserve">
+    <value>Files will be permanently deleted</value>
+  </data>
+  <data name="RecycleBin_Disabled_DeletePermanently_Desc" xml:space="preserve">
+    <value>The selected files are located on the disk with disabled recycle bin.</value>
+  </data>
+  <data name="RecycleBin_Disabled_DeletePermanently_ProceedDelete" xml:space="preserve">
+    <value>Proceed with deletion</value>
+  </data>
+  <data name="RecycleBin_LowCapacity_Title" xml:space="preserve">
+    <value>Recycle Bin will be partially emptied</value>
+  </data>
+  <data name="RecycleBin_LowCapacity_Desc" xml:space="preserve">
+    <value>There is not enough space in Recycle Bin to move the selected files. Some files already in Recycle Bin will be permanently deleted to release space.</value>
+  </data>
+  <data name="RecycleBin_LowCapacity_Move" xml:space="preserve">
+    <value>Move to Recycle Bin</value>
+  </data>
+  <data name="LongOperation_Title" xml:space="preserve">
+    <value>Please wait</value>
+  </data>
+  <data name="LongOperation_Desc" xml:space="preserve">
+    <value>Operation takes longer than usual...</value>
+  </data>
+  <data name="Exe_Notify_AllowToRun_Title" xml:space="preserve">
+    <value>Executables aren't allowed to run</value>
+  </data>
+  <data name="Exe_Notify_AllowToRun_Desc" xml:space="preserve">
+    <value>Run the file outside the app or allow executables to run in settings.</value>
+  </data>
+  <data name="Search_Query" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="Grid_ShowGridlines" xml:space="preserve">
+    <value>Show gridlines</value>
+  </data>
+  <data name="Exclusions_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Exclusions_Exclusion" xml:space="preserve">
+    <value>Exclusion</value>
+  </data>
+  <data name="Exclusions_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Exclusions_EmptyState_NothingSelected" xml:space="preserve">
+    <value>Nothing selected</value>
+  </data>
+  <data name="Exclusions_EmptyState_NothingSelected_Desc" xml:space="preserve">
+    <value>Select an exclusion on the left and its details will show up here.</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Upgrade_UpgradeNow" xml:space="preserve">
+    <value>Upgrade now</value>
+  </data>
+  <data name="Upgrade_StartTrial" xml:space="preserve">
+    <value>Start trial</value>
+  </data>
+  <data name="Upgrade_AlreadyHaveProductKey" xml:space="preserve">
+    <value>I already have a product key</value>
+  </data>
+  <data name="Upgrade_Desc" xml:space="preserve">
+    <value>Our best solution to reveal which files and folders waste your disk space. Get a full set of features and improvements, including the following:</value>
+    
+  </data>
+  <data name="Upgrade_Features_CrossDiskScan" xml:space="preserve">
+    <value>Cross-disk scanning</value>
+  </data>
+  <data name="Upgrade_Features_MultipleScanSourcesSelection" xml:space="preserve">
+    <value>Multiple scan sources selection</value>
+  </data>
+  <data name="Upgrade_Features_Filters" xml:space="preserve">
+    <value>Rich filtering features</value>
+  </data>
+  <data name="Upgrade_Features_DeleteDuplicateFolders" xml:space="preserve">
+    <value>Removing duplicate folders</value>
+  </data>
+  <data name="ExtraItems_OperationIsInProgress" xml:space="preserve">
+    <value>An operation is being performed on this item</value>
+  </data>
+  <data name="ExtraItems_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="ExtraItems_Desc" xml:space="preserve">
+    <value>The selected subset contains files or folders that were excluded from the scanning results for certain reasons. Decide what to do with these extras.</value>
+  </data>
+  <data name="ExtraItems_GroupAction" xml:space="preserve">
+    <value>Group action:</value>
+  </data>
+  <data name="AppService_Usage_Desc" xml:space="preserve">
+    <value>Aya uses its own service for several features, such as licensing, feedback reporting or statistics. Here you can review the data being sent.</value>
+    
+  </data>
+  <data name="AppService_Usage_Licensing_Title" xml:space="preserve">
+    <value>Licensing data</value>
+  </data>
+  <data name="AppService_Usage_Badge_Required" xml:space="preserve">
+    <value>REQUIRED</value>
+  </data>
+  <data name="AppService_Usage_Licensing_Desc" xml:space="preserve">
+    <value>The data is required for licensing engine. The data is sent when activating product key. Can't be disabled.</value>
+    
+  </data>
+  <data name="AppService_Usage_DataPacket" xml:space="preserve">
+    <value>Data packet</value>
+  </data>
+  <data name="AppService_Usage_Feedback_Title" xml:space="preserve">
+    <value>Feedback data</value>
+  </data>
+  <data name="AppService_Usage_Feedback_Desc" xml:space="preserve">
+    <value>The data contains user-defined message and attachments made via feedback tool plus usage statistics (if enabled below). The data is sent manually by user action. Can't be disabled.</value>
+  </data>
+  <data name="AppService_Usage_Badge_Optional" xml:space="preserve">
+    <value>OPTIONAL</value>
+  </data>
+  <data name="AppService_Usage_Statistics_Title" xml:space="preserve">
+    <value>Usage statistics</value>
+  </data>
+  <data name="AppService_Usage_Statistics_Desc" xml:space="preserve">
+    <value>Aya sends certain metrics to 7room about how you use the app. We use metrics to prioritize our work and evaluate whether we are successful in solving real users' problems after we've released something.</value>
+  </data>
+  <data name="Proxy_Desc" xml:space="preserve">
+    <value>If you connected to the Internet using a proxy server, please specify the proxy server connection settings.</value>
+  </data>
+  <data name="Settings_SkipUac" xml:space="preserve">
+    <value>Skip User Account Control warning</value>
+  </data>
+  <data name="Settings_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="Settings_RecycleBin_WarnLowCapacity" xml:space="preserve">
+    <value>Warn about insufficient capacity of Recycle Bin</value>
+  </data>
+  <data name="Settings_RecycleBin_WarnLowCapacity_Desc" xml:space="preserve">
+    <value>If the capacity of the recycle bin is insufficient, the system may empty the recycle bin without warning when new files are moved into it.</value>
+  </data>
+  <data name="Settings_Exe_AllowToRun_Desc" xml:space="preserve">
+    <value>Executables from within Aya will run with administrative privileges and may harm your computer.</value>
+    
+  </data>
+  <data name="Settings_AppService" xml:space="preserve">
+    <value>App service</value>
+  </data>
+  <data name="Settings_AppService_Desc" xml:space="preserve">
+    <value>Aya uses its own service for several features, such as licensing, feedback reporting or statistics.</value>
+  </data>
+  <data name="Settings_AppService_Manage" xml:space="preserve">
+    <value>Manage app service usage...</value>
+  </data>
+  <data name="Settings_Proxy" xml:space="preserve">
+    <value>Proxy settings</value>
+  </data>
+  <data name="Settings_Proxy_Desc" xml:space="preserve">
+    <value>If you connected to the Internet using a proxy server, please specify the proxy server connection settings.</value>
+  </data>
+  <data name="Settings_Log" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+  <data name="Settings_OpenLogFile" xml:space="preserve">
+    <value>Open latest log file</value>
+  </data>
+  <data name="Settings_OpenLogFolder" xml:space="preserve">
+    <value>Open logs folder in Explorer</value>
+  </data>
+  <data name="Settings_Filters_Groups_RestoreDefaults" xml:space="preserve">
+    <value>Restore defaults</value>
+    
+  </data>
+  <data name="Settings_Filters_CreateGroupBasedOn" xml:space="preserve">
+    <value>Create new based on...</value>
+  </data>
+  <data name="Settings_Filters_Desc" xml:space="preserve">
+    <value>Filters are grouped and used in the application to increase the convenience of browsing content.</value>
+  </data>
+  <data name="Settings_Filters_AddNewGroup" xml:space="preserve">
+    <value>Add new group...</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_AddNewGroup" xml:space="preserve">
+    <value>Add new group and it will be shown here.</value>
+  </data>
+  <data name="Settings_Filters_StartTypingExtension" xml:space="preserve">
+    <value>Start typing to find a filter or create a new one</value>
+    
+  </data>
+  <data name="Settings_Filters_EmptyState_NoGroups_Title" xml:space="preserve">
+    <value>No groups</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoExtensions_Title" xml:space="preserve">
+    <value>No items</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoExtensions_Desc" xml:space="preserve">
+    <value>Add a new item using the field on the top.</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoSelectedGroups_Title" xml:space="preserve">
+    <value>No selected groups</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoSelectedGroups_Desc" xml:space="preserve">
+    <value>Select group from the left and its contents will be shown here.</value>
+  </data>
+  <data name="Settings_Language_Desc" xml:space="preserve">
+    <value>If you don't see your language above and you want to make a translation, or you see any mistakes in current translation, please click the link below.</value>
+  </data>
+  <data name="Settings_Language_Report" xml:space="preserve">
+    <value>Report translation improvement...</value>
+  </data>
+  <data name="Settings_UseAdvancedModeByDefault" xml:space="preserve">
+    <value>Show scan window in advanced mode</value>
+  </data>
+  <data name="Settings_CenterWndHorizOnOpenPane" xml:space="preserve">
+    <value>Center window horizontally when opening pane</value>
+  </data>
+  <data name="Settings_AnimateWndCentering" xml:space="preserve">
+    <value>Animate window centering</value>
+  </data>
+  <data name="Settings_SearchDuplicatesAfterScanningByDefault" xml:space="preserve">
+    <value>Search for duplicates after scanning by default</value>
+    
+  </data>
+  <data name="Settings_KeepSelectedScanSources" xml:space="preserve">
+    <value>Save selected scan sources in advanced mode</value>
+    
+  </data>
+  <data name="Settings_RunScanAtStartWhenSavedScanSources" xml:space="preserve">
+    <value>Run scan at startup if there are saved sources</value>
+  </data>
+  <data name="Settings_Duplicates" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="Settings_UpdateAutomatically" xml:space="preserve">
+    <value>Update automatically</value>
+  </data>
+  <data name="Settings_UpdateAutomatically_Desc" xml:space="preserve">
+    <value>Automatically update Aya when a new release is available.</value>
+  </data>
+  <data name="Settings_CurrentUpdateChannel" xml:space="preserve">
+    <value>You are currently on</value>
+  </data>
+  <data name="Main_ScanSources" xml:space="preserve">
+    <value>Scan sources</value>
+    
+  </data>
+  <data name="Counter_ClearSearch" xml:space="preserve">
+    <value>Clear search</value>
+  </data>
+  <data name="Counter_DisableFilters" xml:space="preserve">
+    <value>Disable filters</value>
+  </data>
+  <data name="Counter_ClearSearchDisableFilters" xml:space="preserve">
+    <value>Clear search &amp; disable filters</value>
+  </data>
+  <data name="Item_ExcludeFromDeleteQueue" xml:space="preserve">
+    <value>Exclude from deletion queue</value>
+    
+  </data>
+  <data name="ReadyToDelete_FilteredContentWarning" xml:space="preserve">
+    <value>Filtered items will not be deleted</value>
+  </data>
+  <data name="ReadyToDelete_Title" xml:space="preserve">
+    <value>Ready to delete</value>
+  </data>
+  <data name="ReadyToDelete_Desc" xml:space="preserve">
+    <value>Verify all the items to be deleted. If you changed your mind about deleting an item, simply exclude it from the deletion queue.</value>
+  </data>
+  <data name="ReadyToDelete_DeleteFoldersIfPossible" xml:space="preserve">
+    <value>Delete folders if possible</value>
+  </data>
+  <data name="Filters_CheckAllGroups" xml:space="preserve">
+    <value>Check all groups</value>
+  </data>
+  <data name="Filters_UncheckAllGroups" xml:space="preserve">
+    <value>Uncheck all groups</value>
+  </data>
+  <data name="Filters_ExpandAll" xml:space="preserve">
+    <value>Expand all</value>
+  </data>
+  <data name="Filters_CollapseAll" xml:space="preserve">
+    <value>Collapse all</value>
+  </data>
+  <data name="Filters_Edit" xml:space="preserve">
+    <value>Edit filters...</value>
+  </data>
+  <data name="Filters_ResetAll" xml:space="preserve">
+    <value>Reset all filters</value>
+  </data>
+  <data name="Filters_UncheckAll" xml:space="preserve">
+    <value>Uncheck all</value>
+  </data>
+  <data name="Filters_UncheckAllButThis" xml:space="preserve">
+    <value>Uncheck all but this</value>
+  </data>
+  <data name="Filters_CheckAll" xml:space="preserve">
+    <value>Check all</value>
+  </data>
+  <data name="Filters_Title" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="Filters_Desc" xml:space="preserve">
+    <value>Content filtering based on categories</value>
+    
+  </data>
+  <data name="Item_Columns_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Item_Columns_DateCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="Item_Columns_DateModified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="Item_SelectedCount" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="Item_SelectedSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Item_EmptyState_NoneSelected" xml:space="preserve">
+    <value>Select file or folder to view details</value>
+    
+  </data>
+  <data name="Duplicates_Sort_Name" xml:space="preserve">
+    <value>Name</value>
+    
+    <comment>(Sort by)</comment>
+  </data>
+  <data name="Duplicates_Sort_Size" xml:space="preserve">
+    <value>Size</value>
+    
+    <comment>(Sort by)</comment>
+  </data>
+  <data name="Duplicates_Sort_Count" xml:space="preserve">
+    <value>Count</value>
+    
+    <comment>(Sort by)</comment>
+  </data>
+  <data name="SortDirection_Ascending" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="SortDirection_Descending" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="Duplicates_PossibleDuplicate" xml:space="preserve">
+    <value>Possible duplicate</value>
+  </data>
+  <data name="Duplicates_ExactDuplicate" xml:space="preserve">
+    <value>Exact duplicate</value>
+    
+  </data>
+  <data name="Duplicates_MatchByContent" xml:space="preserve">
+    <value>Match by content</value>
+  </data>
+  <data name="Duplicates_CancelMatching" xml:space="preserve">
+    <value>Cancel matching</value>
+  </data>
+  <data name="Duplicates_SelectedGroups" xml:space="preserve">
+    <value>Selected groups</value>
+  </data>
+  <data name="Duplicates_DeselectAll" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="Duplicates_SelectAll" xml:space="preserve">
+    <value>Select all duplicates</value>
+  </data>
+  <data name="Duplicates_SelectByCreateDate" xml:space="preserve">
+    <value>Select by creation date</value>
+  </data>
+  <data name="Duplicates_EarliestCopies" xml:space="preserve">
+    <value>Earliest</value>
+  </data>
+  <data name="Duplicates_LatestCopies" xml:space="preserve">
+    <value>Latest</value>
+  </data>
+  <data name="Duplicates_SelectByModifyDate" xml:space="preserve">
+    <value>Select by modification date</value>
+  </data>
+  <data name="Duplicates_AllGroups" xml:space="preserve">
+    <value>All groups</value>
+  </data>
+  <data name="Duplicates_DeselectAllInEachGroup" xml:space="preserve">
+    <value>Deselect all in each group</value>
+  </data>
+  <data name="Duplicates_SelectAllInEachGroup" xml:space="preserve">
+    <value>Select all duplicates in each group</value>
+  </data>
+  <data name="Duplicates_SelectByCreateDateInEachGroup" xml:space="preserve">
+    <value>Select by creation date in each group</value>
+  </data>
+  <data name="Duplicates_SelectByModifyDateInEachGroup" xml:space="preserve">
+    <value>Select by modification date in each group</value>
+  </data>
+  <data name="Duplicates_DeleteEntireGroup" xml:space="preserve">
+    <value>Delete the entire group...</value>
+  </data>
+  <data name="Duplicates_SelectByLocationInEachGroup" xml:space="preserve">
+    <value>Select by location in each group</value>
+  </data>
+  <data name="Duplicates_ThisLocation" xml:space="preserve">
+    <value>This location</value>
+  </data>
+  <data name="Duplicates_ThisLocationAndSubfolders" xml:space="preserve">
+    <value>This location and subfolders</value>
+  </data>
+  <data name="Duplicates_MatchByThisContent" xml:space="preserve">
+    <value>Match by this content</value>
+  </data>
+  <data name="Duplicates_SelectedCount" xml:space="preserve">
+    <value>Selected duplicates count</value>
+  </data>
+  <data name="Duplicates_Obsolete_Title" xml:space="preserve">
+    <value>Obsolete duplicate group</value>
+  </data>
+  <data name="Duplicates_Obsolete_Desc" xml:space="preserve">
+    <value>Matching by content revealed that the files in this group are not duplicates. This group is displayed for information. You can ignore it or remove it from the list.</value>
+  </data>
+  <data name="Duplicates_Obsolete_DeleteOnlyThis" xml:space="preserve">
+    <value>Remove group from list</value>
+  </data>
+  <data name="Duplicates_Obsolete_DeleteAll" xml:space="preserve">
+    <value>Remove all obsolete groups ({0})</value>
+  </data>
+  <data name="Duplicates_Groups_Error_Title" xml:space="preserve">
+    <value>Something went wrong</value>
+    
+  </data>
+  <data name="Duplicates_Groups_Error_Desc" xml:space="preserve">
+    <value>An error occurred while processing the duplicate group.</value>
+  </data>
+  <data name="Duplicates_Groups_Error_Message" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="Duplicates_Groups_EmptyState_NoSelected_Title" xml:space="preserve">
+    <value>No selected groups</value>
+  </data>
+  <data name="Duplicates_Groups_EmptyState_NoSelected_Desc" xml:space="preserve">
+    <value>Select duplicate group from the left and its contents will be shown here.</value>
+  </data>
+  <data name="Duplicates_DeleteSelected" xml:space="preserve">
+    <value>Delete selected...</value>
+  </data>
+  <data name="Duplicates_TotalSelectedFiles" xml:space="preserve">
+    <value>files:</value>
+  </data>
+  <data name="Duplicates_BackToSearch" xml:space="preserve">
+    <value>Back to search</value>
+  </data>
+  <data name="Duplicates_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Settings_Filters_EmptyState_NoGroups_Desc" xml:space="preserve">
+    <value>Create a group and its contents will be shown here.</value>
+  </data>
+  <data name="ErrorInfo_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="DiskControl_FileSystem" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="DiskControl_FreeOf" xml:space="preserve">
+    <value>free of</value>
+  </data>
+  <data name="DiskControl_UsedOf" xml:space="preserve">
+    <value>used of</value>
+  </data>
+  <data name="Settings_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="About_Tab_Support" xml:space="preserve">
+    <value>SUPPORT</value>
+  </data>
+  <data name="About_Tab_About" xml:space="preserve">
+    <value>ABOUT</value>
+  </data>
+  <data name="About_Tab_Licensing" xml:space="preserve">
+    <value>LICENSING</value>
+  </data>
+  <data name="Update_Status_FailedToDownload" xml:space="preserve">
+    <value>Unable to download update</value>
+  </data>
+  <data name="Update_Status_FailedToInstall" xml:space="preserve">
+    <value>Unable to install update</value>
+  </data>
+  <data name="Licensing_AfterSubscription_Desc" xml:space="preserve">
+    <value>After this period, the subscription will be automatically renewed. If the renewal is disabled, the application edition will be switched to Free.</value>
+  </data>
+  <data name="Licensing_ActivateTrial_p2_Now" xml:space="preserve">
+    <value>right now!</value>
+  </data>
+  <data name="Upgrade_Features_FastScan" xml:space="preserve">
+    <value>Fast scan engine using MFT directly</value>
+    
+  </data>
+  <data name="Upgrade_InEditionOnly_p1_Feature" xml:space="preserve">
+    <value>This feature is only available in</value>
+    <comment>e.g. This feature is only available in Advanced edition.</comment>
+  </data>
+  <data name="Upgrade_InEditionOnly_p2_Edition" xml:space="preserve">
+    <value>edition.</value>
+  </data>
+  <data name="Counter_Of" xml:space="preserve">
+    <value>of</value>
+    <comment>e.g. 16 of 25</comment>
+  </data>
+  <data name="Units_Kb" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Feedback_Sent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="Licensing_Error_SaveLicense" xml:space="preserve">
+    <value>Unable to save license file to disk</value>
+  </data>
+  <data name="Licensing_Error_DeleteLicense" xml:space="preserve">
+    <value>Unable to delete license file from disk.</value>
+  </data>
+  <data name="ExtraItemAction_Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="ExtraItemAction_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ExtraItemAction_Different" xml:space="preserve">
+    <value>Different actions</value>
+  </data>
+  <data name="GridViewDensity_Medium" xml:space="preserve">
+    <value>Medium</value>
+    
+  </data>
+  <data name="GridViewDensity_Low" xml:space="preserve">
+    <value>Low</value>
+    
+  </data>
+  <data name="GridViewDensity_High" xml:space="preserve">
+    <value>High</value>
+    
+  </data>
+  <data name="SizePercentType_Scan" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="SizePercentType_Disk" xml:space="preserve">
+    <value>Disk</value>
+    <comment>(Percent of)</comment>
+  </data>
+  <data name="SizePercentType_Computer" xml:space="preserve">
+    <value>Computer</value>
+  </data>
+  <data name="SizePercentType_Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="RecycleBin" xml:space="preserve">
+    <value>Recycle Bin</value>
+  </data>
+  <data name="RecycleBin_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="RecycleBin_Empty" xml:space="preserve">
+    <value>Empty...</value>
+  </data>
+  <data name="RecycleBin_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="GridViewDensity" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="Settings_ExcludeList_Desc" xml:space="preserve">
+    <value>Files and folders that will be excluded from the scan. You can specify both absolute paths and patterns.</value>
+  </data>
+  <data name="Settings_Additional" xml:space="preserve">
+    <value>Additional</value>
+  </data>
+  <data name="Licensing_ProductKeyCreationDate" xml:space="preserve">
+    <value>Key issue date:</value>
+  </data>
+  <data name="ProductKeyType_Donation" xml:space="preserve">
+    <value>Donation</value>
+  </data>
+  <data name="ProductKeyType_Trial" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="ProductKeyType_Annual" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="ProductKeyType_Lifetime" xml:space="preserve">
+    <value>Lifetime</value>
+  </data>
+  <data name="Validation_NumberMustBePositive" xml:space="preserve">
+    <value>The number must be positive</value>
+  </data>
+  <data name="Settings_ScanEngine" xml:space="preserve">
+    <value>Scan engine</value>
+  </data>
+  <data name="Settings_FastScan_UseMft" xml:space="preserve">
+    <value>Use fast scan engine</value>
+  </data>
+  <data name="Settings_FastScan_UseMft_Desc" xml:space="preserve">
+    <value>Fast scan engine reads the master file table (MFT) directly from NTFS-formatted disks.</value>
+  </data>
+  <data name="Duplicates_Sort_SortBy" xml:space="preserve">
+    <value>Sort by:</value>
+  </data>
+  <data name="Exclusions_Reason_NotSupported" xml:space="preserve">
+    <value>Not supported</value>
+  </data>
+  <data name="Exclusions_Reason_NotSupported_Desc" xml:space="preserve">
+    <value>Files that are not currently supported</value>
+  </data>
+  <data name="Exclusions_Reasons" xml:space="preserve">
+    <value>Reasons</value>
+  </data>
+  <data name="Exclusions_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="SkipCode_FilterByPath" xml:space="preserve">
+    <value>Filtered by path according to exclude lists.</value>
+  </data>
+  <data name="SkipCode_FilterBySize" xml:space="preserve">
+    <value>Filtered by size according to settings.</value>
+  </data>
+  <data name="SkipCode_FilterByAttributes" xml:space="preserve">
+    <value>Filtered by attributes according to settings.</value>
+  </data>
+  <data name="SkipCode_AccessDenied" xml:space="preserve">
+    <value>Access denied. Insufficient rights to access a file or folder.</value>
+  </data>
+  <data name="SkipCode_ReparsePoint" xml:space="preserve">
+    <value>Reparse Point. Not currently supported.</value>
+  </data>
+  <data name="SkipCode_Exception" xml:space="preserve">
+    <value>Unknown error reading file and/or its metadata.</value>
+  </data>
+  <data name="SkipCode_UnableToReadSize" xml:space="preserve">
+    <value>Fast scan engine doesn't currently support reading size for this file.</value>
+  </data>
+  <data name="Search_SyntaxCommands" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="Fs_ReadingMft" xml:space="preserve">
+    <value>Reading MFT...</value>
+  </data>
+  <data name="Settings_EnableDetailedLogging" xml:space="preserve">
+    <value>Enable detailed logging</value>
+  </data>
+  <data name="Settings_EnableDetailedLogging_Desc" xml:space="preserve">
+    <value>Capture more data for troubleshooting.</value>
+  </data>
+  <data name="Fs_FilteringFileRecords" xml:space="preserve">
+    <value>Filtering file records...</value>
+  </data>
+  <data name="Fs_NormalizingData" xml:space="preserve">
+    <value>Normalizing data...</value>
+  </data>
+  <data name="Fs_Finalizing" xml:space="preserve">
+    <value>Finalizing...</value>
+  </data>
+  <data name="Main_ScanEngine_Hint" xml:space="preserve">
+    <value>Scanning can be performed in two modes: normal and fast using MFT. Fast scanning is only available in Aya Advanced for NTFS disks.</value>
+  </data>
+  <data name="Settings_ShowContentMaximized" xml:space="preserve">
+    <value>Show window maximized</value>
+  </data>
+  <data name="Feedback_Additional" xml:space="preserve">
+    <value>Additional</value>
+  </data>
+  <data name="Feedback_LocalizationGuide" xml:space="preserve">
+    <value>Open localization guidelines</value>
+  </data>
+</root>

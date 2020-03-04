@@ -1,3 +1,11 @@
+## Version 0.10.2 `(2020-03-04)`
+#### Enhancements
+- Update Third-Party licenses
+#### Bug fixes
+- Bug fixes and other minor improvements
+
+<br>
+
 ## Version 0.10.1 `(2020-02-29)`
 #### Enhancements
 - Add link to localization guidelines on GitHub

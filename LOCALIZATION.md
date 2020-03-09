@@ -43,12 +43,12 @@ Tags `<data>` with attribute `name` containing markers `p1...pN` are part of one
 
 ## Creating a new translation
 
-To create a translation, you need a reference file in the neutral language (English), from which the structure of the new file will be taken. The reference file must be copied from [Localizations](https://github.com/7room/aya/tree/master/localizations) folder.
+To create a translation, you need a reference file in the neutral language (English), from which the structure of the new file will be taken. The reference file must be copied from [Localizations](https://github.com/7room/aya/tree/master/Localizations) folder.
 
 To avoid different people working on the same language at the same time, first check whether your language is not already taken by someone else. So, if it's not listed under [Open Issues](https://github.com/7room/aya/issues):
 
-Open a [New Issue](https://github.com/7room/aya/issues/new) to let other people know you are working on a new translation.
-Put language name and ID in the title, e.g. `Deutsch (de_DE)`.
+Create a [new issue](https://github.com/7room/aya/issues/new) to let other people know you are working on a new translation.
+Put language name and ID in the title, e.g. `Deutsch (de-DE)`.
 
 The translation process is to assign a new value to the `<value>` tag within the `<data>` tag. You should not change the value of the attribute `name`.
 
@@ -70,7 +70,7 @@ This part is a tricky one. To test your translation you need a compiler of `.res
 
 We recommend using a tool called [Resxul](https://github.com/paulem/resxul). Get the installer [here](https://github.com/paulem/resxul/releases/latest), install it and select `Aya` profile. Next, select your `.resx` file (make sure that the file name contains the correct language ID). Compile the assembly and copy it to the corresponding folder.
 
-After launching Aya, select the desired language and make sure that all the strings are displayed as expected. If the strings are too long, try to rephrase them, recompile the satellite assembly and check again. If you are unable to rephrase a sentence and the UI does not allow you to fit a line of larger size, please [create an issue](https://github.com/7room/aya/issues/new/choose) and we'll look at how to improve Aya in this particular case.
+After launching Aya, select the desired language and make sure that all the strings are displayed as expected. If the strings are too long, try to rephrase them, recompile the satellite assembly and check again. If you are unable to rephrase a sentence and the UI does not allow you to fit a line of larger size, please [create an issue](https://github.com/7room/aya/issues/new) and we'll look at how to improve Aya in this particular case.
 
 > If you are using Resxul, you can skip the step of copying the assembly to the folder and choosing the language in Aya. Simply specify the path to Aya in Resxul and select "Automatically start application after compilation" option.
 

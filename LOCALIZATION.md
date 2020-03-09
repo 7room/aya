@@ -45,9 +45,9 @@ Tags `<data>` with attribute `name` containing markers `p1...pN` are part of one
 
 To create a translation, you need a reference file in the neutral language (English), from which the structure of the new file will be taken. The reference file must be copied from [Localizations](https://github.com/7room/aya/tree/master/Localizations) folder.
 
-To avoid different people working on the same language at the same time, first check whether your language is not already taken by someone else. So, if it's not listed under [Open Issues](https://github.com/7room/aya/issues):
+To avoid different people working on the same language at the same time, first check whether your language is not already taken by someone else. So, if it's not listed under [open issues](https://github.com/7room/aya/issues):
 
-Create a [new issue](https://github.com/7room/aya/issues/new) to let other people know you are working on a new translation.
+[Create a new issue](https://github.com/7room/aya/issues/new) to let other people know you are working on a new translation.
 Put language name and ID in the title, e.g. `Deutsch (de-DE)`.
 
 The translation process is to assign a new value to the `<value>` tag within the `<data>` tag. You should not change the value of the attribute `name`.

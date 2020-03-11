@@ -1,3 +1,13 @@
+## Version 0.10.3 `(2020-03-11)`
+#### Enhancements
+- Allow double-click in Duplicates
+#### Bug fixes
+- Fix filtering in Contents when browsing
+- Fix app behavior when deleting multiple items with using "Skip" command
+- Bug fixes and other minor improvements
+
+<br>
+
 ## Version 0.10.2 `(2020-03-04)`
 #### Enhancements
 - Update Third-Party licenses

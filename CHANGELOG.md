@@ -1,3 +1,10 @@
+## Version 0.10.4 `(2020-03-15)`
+#### Bug fixes
+- Change "http" scheme link for downloading .NET Framework to "https"
+- Bug fixes and other minor improvements
+
+<br>
+
 ## Version 0.10.3 `(2020-03-11)`
 #### Enhancements
 - Allow double-click in Duplicates

@@ -10,7 +10,7 @@
 Aya has the necessary and sufficient functionality to reveal which files and folders waste your space and get rid of them and their duplicates. Simple yet powerful, Aya satisfies not only home users, but also professionals.
 
 Visit [getaya.co](https://getaya.co) to learn more.  
-Follow [@7room](https://twitter.com/7room) for important announcements.
+Follow [@7roomAya](https://twitter.com/7roomAya) for important announcements.
 <br/>
 <br/>
 ![aya-880](https://user-images.githubusercontent.com/2874236/75115994-0dbeec80-5675-11ea-93a1-33f4e5fb9e70.png)
@@ -29,7 +29,7 @@ Aya will automatically update when a new release is available.
 * [File an issue](https://github.com/7room/aya/issues)
 * [Request a new feature](CONTRIBUTING.md)
 * [Vote](https://github.com/7room/aya/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc) popular feature requests
-* Follow [@7room](https://twitter.com/7room) and tweet us with any other feedback
+* Follow [@7roomAya](https://twitter.com/7roomAya) and tweet us with any other feedback
 
 ### Help translate
 Aya is currently available in the following languages:

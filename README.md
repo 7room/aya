@@ -37,4 +37,4 @@ Aya is currently available in the following languages:
 * `ru-RU` `Russian`
 
 We're looking for people who can help us translate Aya into other languages.
-If you're willing to help with the translations, please read our [Localization guidelines](LOCALIZATION.md). We'll really appreciate it! :heart:
+If you're willing to help with the translations, please read our [Localization guidelines](LOCALIZATION.md). We'd really appreciate it! :heart:

@@ -1,9 +1,10 @@
-![aya](https://user-images.githubusercontent.com/2874236/75116104-fcc2ab00-5675-11ea-91af-0e8e04df8a46.png)
+[![aya](https://user-images.githubusercontent.com/2874236/75116104-fcc2ab00-5675-11ea-91af-0e8e04df8a46.png)](https://getaya.co)
 <br/>
 <br/>
-![Platform: Windows](https://img.shields.io/badge/platform-windows-brightgreen.svg)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/7room/aya?include_prereleases)
-![GitHub Pre-Releases (by Asset)](https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.4.exe?label=downloads)
+[![Platform: Windows](https://img.shields.io/badge/platform-windows-brightgreen.svg)](https://getaya.co)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/7room/aya?include_prereleases)](https://github.com/7room/aya/releases/latest)
+[![GitHub Pre-Releases (by Asset)](https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.4.exe?label=downloads)](https://github.com/7room/aya/releases/latest)
+[![Twitter Aya](https://img.shields.io/badge/twitter-%407roomAya-55acee.svg?label=twitter)](https://twitter.com/7roomAya)
 
 ### A well-designed tool that helps you<br/>take control over your large files and get rid of the useless ones.  
 
@@ -15,10 +16,10 @@ Follow [@7roomAya](https://twitter.com/7roomAya) for important announcements.
 <br/>
 ![aya-880](https://user-images.githubusercontent.com/2874236/75115994-0dbeec80-5675-11ea-93a1-33f4e5fb9e70.png)
 
-### Installing
+### Installation
 Aya is currently available for Windows only.
 
-#### Prerequisites
+#### Requirements
 * Windows 7 or newer
 * [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or newer
 

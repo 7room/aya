@@ -17,7 +17,7 @@ Disk Usage Analyzer and Duplicate File Finder
   <a href="https://twitter.com/7roomAya"><img src="https://img.shields.io/badge/twitter-%407roomAya-55acee?logo=twitter" alt="Twitter"></a>
   <a href="https://t.me/getAyaChat"><img src="https://img.shields.io/badge/telegram-chat-28a0dc?style=flat&logo=telegram" alt="Telegram chat"></a>
 </p>
-
+<br/>
 <p align="center">
   <a href="https://getaya.co" target="_blank" rel="noopener noreferrer" >
     <img src="https://user-images.githubusercontent.com/2874236/213491582-6c2335af-d5f1-4bb7-b4d1-83574e282782.png" alt="Aya image">

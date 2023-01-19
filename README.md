@@ -12,8 +12,8 @@ Disk Usage Analyzer and Duplicate File Finder
 <br/>
 <p align="center">
   <a href="https://getaya.co"><img src="https://img.shields.io/badge/platform-windows-brightgreen.svg" alt="Platform: Windows"></a>
-  <a href="https://github.com/7room/aya/releases/latest"><img src="https://img.shields.io/github/v/release/7room/aya?include_prereleases" alt="Release version"></a>
-  <a href="https://github.com/7room/aya/releases/latest"><img src="https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.4.exe?label=downloads" alt="Download count"></a>
+  <a href="https://github.com/7room/aya/releases/latest"><img src="https://img.shields.io/github/downloads/7room/aya/total" alt="Downloads"></a>
+  <a href="https://github.com/7room/aya/releases/latest"><img src="https://img.shields.io/github/v/release/7room/aya?include_prereleases&sort=semver" alt="Release version"></a>
   <a href="https://twitter.com/7roomAya"><img src="https://img.shields.io/badge/twitter-%407roomAya-55acee?logo=twitter" alt="Twitter"></a>
   <a href="https://t.me/getAyaChat"><img src="https://img.shields.io/badge/telegram-chat-28a0dc?style=flat&logo=telegram" alt="Telegram chat"></a>
 </p>

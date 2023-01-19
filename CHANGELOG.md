@@ -1,3 +1,13 @@
+## Version 0.10.5 `(2023-01-19)`
+#### Enhancements
+- Improve license handling
+- Switch size display (used of / free of) by clicking on size indicator
+- Add "/norun" installer command line parameter to prevent the app from running when using "/silent"
+#### Bug fixes
+- Bug fixes and other minor improvements
+
+<br>
+
 ## Version 0.10.4 `(2020-03-15)`
 #### Bug fixes
 - Change "http" scheme link for downloading .NET Framework to "https"

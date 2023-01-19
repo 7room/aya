@@ -1,10 +1,28 @@
-[![Aya](https://user-images.githubusercontent.com/2874236/75116104-fcc2ab00-5675-11ea-91af-0e8e04df8a46.png)](https://getaya.co)
 <br/>
+<p align="center">
+  <a href="https://getaya.co" target="_blank" rel="noopener noreferrer">
+    <img width="140" src="https://user-images.githubusercontent.com/2874236/213468849-60e64281-d4b6-4eed-b699-88fec9b41b92.svg" alt="Aya logo">
+  </a>
+</p>
+
+<p align="center">
+Disk Usage Analyzer and Duplicate File Finder
+</p>
+
 <br/>
-[![Platform: Windows](https://img.shields.io/badge/platform-windows-brightgreen.svg)](https://getaya.co)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/7room/aya?include_prereleases)](https://github.com/7room/aya/releases/latest)
-[![GitHub Pre-Releases (by Asset)](https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.4.exe?label=downloads)](https://github.com/7room/aya/releases/latest)
-[![Twitter Aya](https://img.shields.io/badge/twitter-%407roomAya-55acee.svg?label=twitter)](https://twitter.com/7roomAya)
+<p align="center">
+  <a href="https://getaya.co"><img src="https://img.shields.io/badge/platform-windows-brightgreen.svg" alt="Platform: Windows"></a>
+  <a href="https://github.com/7room/aya/releases/latest"><img src="https://img.shields.io/github/v/release/7room/aya?include_prereleases" alt="Release version"></a>
+  <a href="https://github.com/7room/aya/releases/latest"><img src="https://img.shields.io/github/downloads-pre/7room/aya/latest/Aya.Setup.0.10.4.exe?label=downloads" alt="Download count"></a>
+  <a href="https://twitter.com/7roomAya"><img src="https://img.shields.io/badge/twitter-%407roomAya-55acee?logo=twitter" alt="Twitter"></a>
+  <a href="https://t.me/getAyaChat"><img src="https://img.shields.io/badge/telegram-chat-28a0dc?style=flat&logo=telegram" alt="Telegram chat"></a>
+</p>
+
+<p align="center">
+  <a href="https://getaya.co" target="_blank" rel="noopener noreferrer" >
+    <img src="https://user-images.githubusercontent.com/2874236/213491582-6c2335af-d5f1-4bb7-b4d1-83574e282782.png" alt="Aya image">
+  </a>
+</p>
 
 ## Overview
 Aya is a well-designed tool that helps you take control over your large files and get rid of the useless ones.
@@ -13,9 +31,6 @@ Aya has the necessary and sufficient functionality to reveal which files and fol
 
 Visit [getaya.co](https://getaya.co) to learn more.  
 Follow [@7roomAya](https://twitter.com/7roomAya) for important announcements.
-<br/>
-<br/>
-![Aya screenshot](https://user-images.githubusercontent.com/2874236/75115994-0dbeec80-5675-11ea-93a1-33f4e5fb9e70.png)
 
 ## Requirements
 * Windows 7 +
